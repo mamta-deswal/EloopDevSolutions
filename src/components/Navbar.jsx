@@ -429,11 +429,12 @@ const Navbar = () => {
             </div>
 
             {/* Sticky Navbar with scroll effect */}
-            <nav className={`h-[70px] flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 transition-all duration-300 shadow-sm ${isScrolled ? 'bg-white text-black' : 'bg-black text-white'
+            <nav className={`h-[70px] flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 transition-all duration-300 shadow-sm bg-white text-black'
                 }`}>
                 {/* Logo */}
                 <span className='flex cursor-pointer' onClick={() => handleRedirect('/')}>
-                    <img className='' src="./Logo-1-9ea992.svg" alt="MadBrains" />
+                    {/* <img className='' src="./Logo-1-9ea992.svg" alt="ELoop" /> */}
+                    <img className='' src="./image.png" alt="ELoop" />
                 </span>
 
                 {/* Desktop Nav with Dropdowns */}
@@ -446,7 +447,7 @@ const Navbar = () => {
                         <button
                             className="flex items-center space-x-1 py-2 hover:text-orange-500 transition-colors"
                         >
-                            <span>Who We Are</span>
+                            <span className='text-black'>Who We Are</span>
                             <svg
                                 className={`w-4 h-4 transition-transform ${openDropdown === 'whoWeAre' ? 'rotate-180' : ''}`}
                                 fill="none"
@@ -563,7 +564,7 @@ const Navbar = () => {
                         <button
                             className="flex items-center space-x-1 py-2 hover:text-orange-500 transition-colors"
                         >
-                            <span>What We Do</span>
+                            <span className='text-black'>What We Do</span>
                             <svg
                                 className={`w-4 h-4 transition-transform ${openDropdown === 'whatWeDo' ? 'rotate-180' : ''}`}
                                 fill="none"
@@ -586,7 +587,7 @@ const Navbar = () => {
                         <button
                             className="flex items-center space-x-1 py-2 hover:text-orange-500 transition-colors"
                         >
-                            <span>Why Mad Brains</span>
+                            <span className='text-black'>Why ELoopDevSolutions</span>
                             <svg
                                 className={`w-4 h-4 transition-transform ${openDropdown === 'whyMadBrains' ? 'rotate-180' : ''}`}
                                 fill="none"
@@ -605,7 +606,7 @@ const Navbar = () => {
                     <li>
                         <button
                             onClick={() => navigate('/Blog')}
-                            className="py-2 hover:text-orange-500 transition-colors"
+                            className="py-2 hover:text-orange-500 transition-colors text-black"
                         >
                             Blog
                         </button>
@@ -615,7 +616,7 @@ const Navbar = () => {
                     <li>
                         <button
                             onClick={() => navigate('/SubscriptionLanding')}
-                            className={`py-2 transition-colors ${isScrolled ? 'hover:text-orange-500' : 'hover:text-gray-300'
+                            className={`py-2 transition-colors ${isScrolled ? 'hover:text-orange-500' : 'hover:text-gray-300 text-black'
                                 }`}
                         >
                             Try UIUX Plans
