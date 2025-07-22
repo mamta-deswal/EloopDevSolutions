@@ -209,7 +209,7 @@ const Hero = () => {
         
         {/* Description */}
         <p className="text-gray-200 text-sm md:text-xl max-w-3xl mb-4 leading-relaxed">
-          At The Mad Brains, we allow unlimited creativity in bringing your UI and UX design and 
+          At The EloopDevSolutions, we allow unlimited creativity in bringing your UI and UX design and 
           development dreams to reality. From scalability to crafting experiences you can't miss, our{' '}
           <span className="text-white font-semibold">UI UX design company</span> stands with you in every stage.
         </p>

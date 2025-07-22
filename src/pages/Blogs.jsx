@@ -9,7 +9,7 @@ export default function MadBrainsBlogPage() {
     {
       id: 1,
       title: "What Are the Best Strategies to Increase E-commerce Conversion Rates in 2025?",
-      author: "Mad Brains Technologies",
+      author: "ELoopDev Solutions",
       date: "05/27/2025",
       category: "E-commerce",
       excerpt: "Discover the most effective strategies to boost your e-commerce conversion rates in 2025...",
@@ -19,7 +19,7 @@ export default function MadBrainsBlogPage() {
     {
       id: 2,
       title: "Real Estate Website Design Tips From Top Industry Professionals in Dubai",
-      author: "Mad Brains Technologies",
+      author: "ELoopDev Solutions",
       date: "05/27/2025",
       category: "Web Design",
       excerpt: "Learn from Dubai's top real estate professionals about creating stunning websites...",
@@ -28,7 +28,7 @@ export default function MadBrainsBlogPage() {
     {
       id: 3,
       title: "Barbeque Nation: Serving a Seamless Experience with UX Audit...",
-      author: "Mad Brains Technologies",
+      author: "ELoopDev Solutions",
       date: "04/21/2025",
       category: "UX Design",
       excerpt: "How we helped Barbeque Nation improve their customer experience through UX auditing...",
@@ -37,7 +37,7 @@ export default function MadBrainsBlogPage() {
     {
       id: 4,
       title: "Where Can You Buy and Sell Cryptocurrency Safely on a Trusted Platform?",
-      author: "Mad Brains Technologies",
+      author: "ELoopDev Solutions",
       date: "04/21/2025",
       category: "Cryptocurrency",
       excerpt: "A comprehensive guide to safe cryptocurrency trading platforms...",

@@ -114,7 +114,7 @@ const Footer = () => {
                 
                 <button className="bg-white bg-opacity-20 hover:bg-opacity-30 transition-all duration-300 px-6 py-3 rounded-full flex items-center gap-2 text-black  font-medium">
                   <span className="text-lg">✉️</span>
-                  themadbrains.com
+                  ELoopDevSolutions.com
                 </button>
               </div>
             </div>

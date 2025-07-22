@@ -232,7 +232,7 @@ const CostEffectiveDesign = () => {
                     className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-medium transition-all duration-300 ${
                       selectedService === service
                         ? 'bg-white text-orange-500 shadow-lg transform scale-105'
-                        : 'bg-white bg-opacity-20 text-white hover:bg-opacity-30 active:bg-opacity-40'
+                      : 'bg-white bg-opacity-20 text-black hover:bg-opacity-30 active:bg-opacity-40'
                     }`}
                   >
                     {service}
