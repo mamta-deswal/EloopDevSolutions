@@ -7,12 +7,8 @@ const Footer = () => {
 
   const offices = [
     {
-      name: "Mohali",
-      address: "5th Floor E 276, Industrial Area, Sector 75, Sahibzada Ajit Singh Nagar, Punjab 160055"
-    },
-    {
-      name: "Abohar",
-      address: "3rd Floor, Sarv Bangla, Abohar - Hanumangarh Rd, Abohar, Punjab 152116"
+      name: "Sonipat",
+      address: "EloopDevSolution , Sonipat "
     }
   ];
 
@@ -244,7 +240,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="mt-12 pt-8 border-t border-gray-800">
           <p className="text-sm text-gray-400">
-            All Rights Reserved By - Mad Brains 2025
+              All Rights Reserved By - ELoopDevSolutions 2025
           </p>
         </div>
       </div>

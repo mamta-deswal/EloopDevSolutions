@@ -45,7 +45,7 @@ const CostEffectiveDesign = () => {
               <span className="text-white font-bold text-2xl">A</span>
             </div>
             <div>
-              <div className="text-lg font-semibold text-gray-900 mb-1">Mad Brains</div>
+              <div className="text-lg font-semibold text-gray-900 mb-1">ELoopDev Solutions</div>
               <div className="text-2xl font-bold text-green-600">$599/40 Hours</div>
             </div>
           </div>
