@@ -78,7 +78,7 @@
 //             <div className="text-center text-sm font-medium py-2 bg-gradient-to-r from-gray-300 via-white to-[#f6f2f1]">
 //                 <p className="text-black">
 //                     Flexible ui/ux design packages for startups and enterprises alike{' '}
-//                     <span className="underline underline-offset-2 text-orange-500">
+//                     <span className="underline underline-offset-2 text-teal-500">
 //                         Explore Now
 //                     </span>
 //                 </p>
@@ -100,7 +100,7 @@
 //                         onMouseLeave={handleMouseLeave}
 //                     >
 //                         <button
-//                             className="flex items-center space-x-1 py-2 hover:text-orange-500 transition-colors"
+//                             className="flex items-center space-x-1 py-2 hover:text-teal-500 transition-colors"
 //                         >
 //                             <span>Who We Are</span>
 //                             <svg
@@ -201,7 +201,7 @@
 //                                         </div>
 //                                         <button
 //                                             onClick={openSignIn}
-//                                             className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-full font-medium transition-colors flex items-center space-x-2"
+//                                             className="bg-teal-500 hover:bg-teal-600 text-white px-6 py-3 rounded-full font-medium transition-colors flex items-center space-x-2"
 //                                         >
 //                                             Book A Call
 //                                         </button>
@@ -217,7 +217,7 @@
 //                         onMouseLeave={handleMouseLeave}
 //                     >
 //                         <button
-//                             className="flex items-center space-x-1 py-2 hover:text-orange-500 transition-colors"
+//                             className="flex items-center space-x-1 py-2 hover:text-teal-500 transition-colors"
 //                         >
 //                             <span>What We Do</span>
 //                             <svg
@@ -240,7 +240,7 @@
 //                         onMouseLeave={handleMouseLeave}
 //                     >
 //                         <button
-//                             className="flex items-center space-x-1 py-2 hover:text-orange-500 transition-colors"
+//                             className="flex items-center space-x-1 py-2 hover:text-teal-500 transition-colors"
 //                         >
 //                             <span>Why Mad Brains</span>
 //                             <svg
@@ -261,7 +261,7 @@
 //                     <li>
 //                         <button
 //                             onClick={() => navigate('/Blog')}
-//                             className="py-2 hover:text-orange-500 transition-colors"
+//                             className="py-2 hover:text-teal-500 transition-colors"
 //                         >
 //                             Blog
 //                         </button>
@@ -271,7 +271,7 @@
 //                     <li>
 //                         <button
 //                             onClick={() => handleRedirect('/uiux-plans')}
-//                             className={`py-2 transition-colors ${isScrolled ? 'hover:text-orange-500' : 'hover:text-gray-300'
+//                             className={`py-2 transition-colors ${isScrolled ? 'hover:text-teal-500' : 'hover:text-gray-300'
 //                                 }`}
 //                         >
 //                             Try UIUX Plans
@@ -287,7 +287,7 @@
 //                         </UserButton.MenuItems>
 //                     </UserButton>) : (<button
 //                         onClick={openSignIn}
-//                         className={`md:inline hidden bg-orange-500 border border-gray-300 ml-20 px-9 py-2 rounded-full active:scale-95 transition-all duration-400 hover:transform hover:-translate-y-1 hover:scale-85 hover:shadow-xl hover:shadow-orange-500/30 hover:brightness-110 ${isScrolled ? 'text-white' : 'text-black'
+//                         className={`md:inline hidden bg-teal-500 border border-gray-300 ml-20 px-9 py-2 rounded-full active:scale-95 transition-all duration-400 hover:transform hover:-translate-y-1 hover:scale-85 hover:shadow-xl hover:shadow-teal-500/30 hover:brightness-110 ${isScrolled ? 'text-white' : 'text-black'
 //                             }`}
 //                     >
 //                         Book A Call
@@ -309,7 +309,7 @@
 //                         <li>
 //                             <button
 //                                 onClick={() => handleRedirect('/blog')}
-//                                 className="text-sm text-left text-gray-700 hover:text-orange-500 transition-colors"
+//                                 className="text-sm text-left text-gray-700 hover:text-teal-500 transition-colors"
 //                             >
 //                                 Blog
 //                             </button>
@@ -317,7 +317,7 @@
 //                         <li>
 //                             <button
 //                                 onClick={() => handleRedirect('/uiux-plans')}
-//                                 className="text-sm text-left text-gray-700 hover:text-orange-500 transition-colors"
+//                                 className="text-sm text-left text-gray-700 hover:text-teal-500 transition-colors"
 //                             >
 //                                 Try UIUX Plans
 //                             </button>
@@ -422,7 +422,7 @@
 //             <div className="text-center text-sm font-medium py-2 bg-gradient-to-r from-gray-300 via-white to-[#f6f2f1]">
 //                 <p className="text-black">
 //                     Flexible ui/ux design packages for startups and enterprises alike{' '}
-//                     <span className="underline underline-offset-2 text-orange-500">
+//                     <span className="underline underline-offset-2 text-teal-500">
 //                         Explore Now
 //                     </span>
 //                 </p>
@@ -445,7 +445,7 @@
 //                         onMouseLeave={handleMouseLeave}
 //                     >
 //                         <button
-//                             className="flex items-center space-x-1 py-2 hover:text-orange-500 transition-colors"
+//                             className="flex items-center space-x-1 py-2 hover:text-teal-500 transition-colors"
 //                         >
 //                             <span className='text-black'>Who We Are</span>
 //                             <svg
@@ -546,7 +546,7 @@
 //                                         </div>
 //                                         <button
 //                                             onClick={() => navigate('/Form')}
-//                                             className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-full font-medium transition-colors flex items-center space-x-2"
+//                                             className="bg-teal-500 hover:bg-teal-600 text-white px-6 py-3 rounded-full font-medium transition-colors flex items-center space-x-2"
 //                                         >
 //                                             Book A Call
 //                                         </button>
@@ -562,7 +562,7 @@
 //                         onMouseLeave={handleMouseLeave}
 //                     >
 //                         <button
-//                             className="flex items-center space-x-1 py-2 hover:text-orange-500 transition-colors"
+//                             className="flex items-center space-x-1 py-2 hover:text-teal-500 transition-colors"
 //                         >
 //                             <span className='text-black'>What We Do</span>
 //                             <svg
@@ -585,7 +585,7 @@
 //                         onMouseLeave={handleMouseLeave}
 //                     >
 //                         <button
-//                             className="flex items-center space-x-1 py-2 hover:text-orange-500 transition-colors"
+//                             className="flex items-center space-x-1 py-2 hover:text-teal-500 transition-colors"
 //                         >
 //                             <span className='text-black'>Why ELoopDevSolutions</span>
 //                             <svg
@@ -606,7 +606,7 @@
 //                     <li>
 //                         <button
 //                             onClick={() => navigate('/Blog')}
-//                             className="py-2 hover:text-orange-500 transition-colors text-black"
+//                             className="py-2 hover:text-teal-500 transition-colors text-black"
 //                         >
 //                             Blog
 //                         </button>
@@ -616,7 +616,7 @@
 //                     <li>
 //                         <button
 //                             onClick={() => navigate('/SubscriptionLanding')}
-//                             className={`py-2 transition-colors ${isScrolled ? 'hover:text-orange-500' : 'hover:text-gray-300 text-black'
+//                             className={`py-2 transition-colors ${isScrolled ? 'hover:text-teal-500' : 'hover:text-gray-300 text-black'
 //                                 }`}
 //                         >
 //                             Try UIUX Plans
@@ -628,7 +628,7 @@
 //                 <button
 //                     // onClick={openBookingForm}
 //                     onClick={() => navigate('/Form')}
-//                     className={`md:inline hidden bg-orange-500 border border-gray-300 ml-20 px-9 py-2 rounded-full active:scale-95 transition-all duration-400 hover:transform hover:-translate-y-1 hover:scale-85 hover:shadow-xl hover:shadow-orange-500/30 hover:brightness-110 ${isScrolled ? 'text-white' : 'text-black'
+//                     className={`md:inline hidden bg-teal-500 border border-gray-300 ml-20 px-9 py-2 rounded-full active:scale-95 transition-all duration-400 hover:transform hover:-translate-y-1 hover:scale-85 hover:shadow-xl hover:shadow-teal-500/30 hover:brightness-110 ${isScrolled ? 'text-white' : 'text-black'
 //                         }`}
 //                 >
 //                     Book A Call
@@ -650,7 +650,7 @@
 //                         <li>
 //                             <button
 //                                 onClick={() => handleRedirect('/blog')}
-//                                 className="text-sm text-left text-gray-700 hover:text-orange-500 transition-colors"
+//                                 className="text-sm text-left text-gray-700 hover:text-teal-500 transition-colors"
 //                             >
 //                                 Blog
 //                             </button>
@@ -658,7 +658,7 @@
 //                         <li>
 //                             <button
 //                                 onClick={() => navigate('/SubscriptionLanding')}
-//                                 className="text-sm text-left text-gray-700 hover:text-orange-500 transition-colors"
+//                                 className="text-sm text-left text-gray-700 hover:text-teal-500 transition-colors"
 //                             >
 //                                 Try UIUX Plans
 //                             </button>
@@ -782,7 +782,7 @@ const Navbar = () => {
             <div className="hidden sm:block text-center text-xs sm:text-sm font-medium py-2 bg-gradient-to-r from-gray-300 via-white to-[#f6f2f1]">
                 <p className="text-black px-2">
                     Flexible ui/ux design packages for startups and enterprises alike{' '}
-                    <span className="underline underline-offset-2 text-orange-500 cursor-pointer">
+                    <span className="underline underline-offset-2 text-teal-500 cursor-pointer">
                         Explore Now
                     </span>
                 </p>
@@ -801,13 +801,13 @@ const Navbar = () => {
 
                 {/* Desktop/Tablet Horizontal Navigation */}
                 <div className="hidden md:flex items-center justify-center flex-1 mx-4 lg:mx-8">
-                    <ul className="flex items-center space-x-3 lg:space-x-6 xl:space-x-8">
+                    <ul className="flex items-center space-x-4 lg:space-x-4 xl:space-x-4">
                         {/* Who We Are Dropdown */}
                         <li className="relative"
                             onMouseEnter={() => handleMouseEnter('whoWeAre')}
                             onMouseLeave={handleMouseLeave}
                         >
-                            <button className="flex items-center space-x-1 py-2 px-2 lg:px-3 hover:text-orange-500 transition-colors text-sm lg:text-base whitespace-nowrap">
+                            <button className="flex items-center space-x-1 py-2 px-2 lg:px-3 hover:text-teal-500 transition-colors text-sm lg:text-base whitespace-nowrap">
                                 <span className='text-black'>Who We Are</span>
                                 <svg
                                     className={`w-3 h-3 lg:w-4 lg:h-4 transition-transform ${openDropdown === 'whoWeAre' ? 'rotate-180' : ''}`}
@@ -907,7 +907,7 @@ const Navbar = () => {
                                             </div>
                                             <button
                                                 onClick={() => navigate('/Form')}
-                                                className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 lg:px-6 lg:py-3 rounded-full font-medium transition-colors flex items-center space-x-2 text-sm lg:text-base"
+                                                className="bg-teal-500 hover:bg-teal-600 text-white px-4 py-2 lg:px-6 lg:py-3 rounded-full font-medium transition-colors flex items-center space-x-2 text-sm lg:text-base"
                                             >
                                                 Book A Call
                                             </button>
@@ -922,7 +922,7 @@ const Navbar = () => {
                             onMouseEnter={() => handleMouseEnter('whatWeDo')}
                             onMouseLeave={handleMouseLeave}
                         >
-                            <button className="flex items-center space-x-1 py-2 px-2 lg:px-3 hover:text-orange-500 transition-colors text-sm lg:text-base whitespace-nowrap">
+                            <button className="flex items-center space-x-1 py-2 px-2 lg:px-3 hover:text-teal-500 transition-colors text-sm lg:text-base whitespace-nowrap">
                                 <span className='text-black'>What We Do</span>
                                 <svg
                                     className={`w-3 h-3 lg:w-4 lg:h-4 transition-transform ${openDropdown === 'whatWeDo' ? 'rotate-180' : ''}`}
@@ -943,8 +943,8 @@ const Navbar = () => {
                             onMouseEnter={() => handleMouseEnter('whyMadBrains')}
                             onMouseLeave={handleMouseLeave}
                         >
-                            <button className="flex items-center space-x-1 py-2 px-2 lg:px-3 hover:text-orange-500 transition-colors text-sm lg:text-base whitespace-nowrap">
-                                <span className='text-black'>Why ELoop</span>
+                            <button className="flex items-center space-x-1 py-2 px-2 lg:px-3 hover:text-teal-500 transition-colors text-sm lg:text-base whitespace-nowrap">
+                                <span className='text-black'>Why ELoopDevSol.</span>
                                 <svg
                                     className={`w-3 h-3 lg:w-4 lg:h-4 transition-transform ${openDropdown === 'whyMadBrains' ? 'rotate-180' : ''}`}
                                     fill="none"
@@ -963,7 +963,7 @@ const Navbar = () => {
                         <li>
                             <button
                                 onClick={() => navigate('/Blog')}
-                                className="py-2 px-2 lg:px-3 hover:text-orange-500 transition-colors text-black text-sm lg:text-base whitespace-nowrap"
+                                className="py-2 px-2 lg:px-3 hover:text-teal-500 transition-colors text-black text-sm lg:text-base whitespace-nowrap"
                             >
                                 Blog
                             </button>
@@ -973,7 +973,7 @@ const Navbar = () => {
                         <li>
                             <button
                                 onClick={() => navigate('/SubscriptionLanding')}
-                                className="py-2 px-2 lg:px-3 hover:text-orange-500 transition-colors text-black text-sm lg:text-base whitespace-nowrap"
+                                className="py-2 px-2 lg:px-3 hover:text-teal-500 transition-colors text-black text-sm lg:text-base whitespace-nowrap"
                             >
                                 Try UIUX Plans
                             </button>
@@ -984,7 +984,7 @@ const Navbar = () => {
                 {/* Book A Call Button - Desktop/Tablet */}
                 <button
                     onClick={() => navigate('/Form')}
-                    className="hidden md:inline-flex bg-orange-500 border border-gray-300 px-4 py-2 lg:px-6 lg:py-2 xl:px-8 xl:py-3 rounded-full active:scale-95 transition-all duration-400 hover:transform hover:-translate-y-1 hover:scale-105 hover:shadow-xl hover:shadow-orange-500/30 hover:brightness-110 text-white text-sm lg:text-base whitespace-nowrap flex-shrink-0"
+                    className="hidden md:inline-flex bg-teal-400 border border-gray-300 px-4 py-2 lg:px-6 lg:py-2 xl:px-8 xl:py-3 rounded-full active:scale-95 transition-all duration-400 hover:transform hover:-translate-y-1 hover:scale-105 hover:shadow-xl hover:shadow-teal-500/30 hover:brightness-110 text-white text-sm lg:text-base whitespace-nowrap flex-shrink-0"
                 >
                     Book A Call
                 </button>
@@ -1008,19 +1008,19 @@ const Navbar = () => {
                         <div className="flex flex-wrap items-center justify-center gap-4 mb-6">
                             <button
                                 onClick={() => handleRedirect('/about')}
-                                className="text-sm text-gray-700 hover:text-orange-500 transition-colors px-3 py-2 rounded-lg hover:bg-gray-50"
+                                className="text-sm text-gray-700 hover:text-teal-500 transition-colors px-3 py-2 rounded-lg hover:bg-gray-50"
                             >
                                 About Us
                             </button>
                             <button
                                 onClick={() => handleRedirect('/team')}
-                                className="text-sm text-gray-700 hover:text-orange-500 transition-colors px-3 py-2 rounded-lg hover:bg-gray-50"
+                                className="text-sm text-gray-700 hover:text-teal-500 transition-colors px-3 py-2 rounded-lg hover:bg-gray-50"
                             >
                                 Our Team
                             </button>
                             <button
                                 onClick={() => handleRedirect('/careers')}
-                                className="text-sm text-gray-700 hover:text-orange-500 transition-colors px-3 py-2 rounded-lg hover:bg-gray-50"
+                                className="text-sm text-gray-700 hover:text-teal-500 transition-colors px-3 py-2 rounded-lg hover:bg-gray-50"
                             >
                                 Career
                             </button>
@@ -1029,25 +1029,25 @@ const Navbar = () => {
                         <div className="flex flex-wrap items-center justify-center gap-4 mb-6">
                             <button
                                 onClick={() => handleRedirect('/web-development')}
-                                className="text-sm text-gray-700 hover:text-orange-500 transition-colors px-3 py-2 rounded-lg hover:bg-gray-50"
+                                className="text-sm text-gray-700 hover:text-teal-500 transition-colors px-3 py-2 rounded-lg hover:bg-gray-50"
                             >
                                 Web Dev
                             </button>
                             <button
                                 onClick={() => handleRedirect('/ui-ux-design')}
-                                className="text-sm text-gray-700 hover:text-orange-500 transition-colors px-3 py-2 rounded-lg hover:bg-gray-50"
+                                className="text-sm text-gray-700 hover:text-teal-500 transition-colors px-3 py-2 rounded-lg hover:bg-gray-50"
                             >
                                 UI/UX Design
                             </button>
                             <button
                                 onClick={() => handleRedirect('/mobile-development')}
-                                className="text-sm text-gray-700 hover:text-orange-500 transition-colors px-3 py-2 rounded-lg hover:bg-gray-50"
+                                className="text-sm text-gray-700 hover:text-teal-500 transition-colors px-3 py-2 rounded-lg hover:bg-gray-50"
                             >
                                 Mobile Dev
                             </button>
                             <button
                                 onClick={() => handleRedirect('/consulting')}
-                                className="text-sm text-gray-700 hover:text-orange-500 transition-colors px-3 py-2 rounded-lg hover:bg-gray-50"
+                                className="text-sm text-gray-700 hover:text-teal-500 transition-colors px-3 py-2 rounded-lg hover:bg-gray-50"
                             >
                                 Consulting
                             </button>
@@ -1056,19 +1056,19 @@ const Navbar = () => {
                         <div className="flex flex-wrap items-center justify-center gap-4 mb-6">
                             <button
                                 onClick={() => handleRedirect('/our-process')}
-                                className="text-sm text-gray-700 hover:text-orange-500 transition-colors px-3 py-2 rounded-lg hover:bg-gray-50"
+                                className="text-sm text-gray-700 hover:text-teal-500 transition-colors px-3 py-2 rounded-lg hover:bg-gray-50"
                             >
                                 Our Process
                             </button>
                             <button
                                 onClick={() => handleRedirect('/portfolio')}
-                                className="text-sm text-gray-700 hover:text-orange-500 transition-colors px-3 py-2 rounded-lg hover:bg-gray-50"
+                                className="text-sm text-gray-700 hover:text-teal-500 transition-colors px-3 py-2 rounded-lg hover:bg-gray-50"
                             >
                                 Portfolio
                             </button>
                             <button
                                 onClick={() => handleRedirect('/testimonials')}
-                                className="text-sm text-gray-700 hover:text-orange-500 transition-colors px-3 py-2 rounded-lg hover:bg-gray-50"
+                                className="text-sm text-gray-700 hover:text-teal-500 transition-colors px-3 py-2 rounded-lg hover:bg-gray-50"
                             >
                                 Testimonials
                             </button>
@@ -1077,13 +1077,13 @@ const Navbar = () => {
                         <div className="flex flex-wrap items-center justify-center gap-4 mb-6">
                             <button
                                 onClick={() => handleRedirect('/Blog')}
-                                className="text-sm text-gray-700 hover:text-orange-500 transition-colors px-3 py-2 rounded-lg hover:bg-gray-50"
+                                className="text-sm text-gray-700 hover:text-teal-500 transition-colors px-3 py-2 rounded-lg hover:bg-gray-50"
                             >
                                 Blog
                             </button>
                             <button
                                 onClick={() => handleRedirect('/SubscriptionLanding')}
-                                className="text-sm text-gray-700 hover:text-orange-500 transition-colors px-3 py-2 rounded-lg hover:bg-gray-50"
+                                className="text-sm text-gray-700 hover:text-teal-500 transition-colors px-3 py-2 rounded-lg hover:bg-gray-50"
                             >
                                 Try UIUX Plans
                             </button>
@@ -1096,7 +1096,7 @@ const Navbar = () => {
                                     navigate('/Form');
                                     closeMobileMenu();
                                 }}
-                                className="bg-orange-500 text-white border border-orange-500 hover:bg-orange-600 active:scale-95 transition-all px-8 py-3 rounded-full font-medium text-sm"
+                                className="bg-teal-500 text-white border border-teal-500 hover:bg-teal-600 active:scale-95 transition-all px-8 py-3 rounded-full font-medium text-sm"
                             >
                                 Book A Call
                             </button>

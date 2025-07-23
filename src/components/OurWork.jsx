@@ -9,9 +9,9 @@ const OurWork = () => {
           <div className="relative z-10">
             <h3 className="text-2xl font-bold mb-2">ALL NEW</h3>
             <h3 className="text-2xl font-bold mb-6">DESIGN</h3>
-            <div className="bg-yellow-400 text-black px-4 py-2 rounded-full text-sm font-medium inline-block">
+            {/* <div className="bg-yellow-400 text-black px-4 py-2 rounded-full text-sm font-medium inline-block">
               SUMMER BOARD
-            </div>
+            </div> */}
           </div>
           <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between text-xs">
             <span>"As close to an anti-gravity board as you can get!"</span>
@@ -56,7 +56,7 @@ const OurWork = () => {
     {
       image: (
         <div className="space-y-3">
-          <div className="bg-gradient-to-r from-red-500 to-red-600 rounded-lg p-4 text-white text-center">
+          <div className="bg-gradient-to-r from-teal-300 to-teal-400 rounded-lg p-4 text-white text-center">
             <div className="text-sm font-medium">TO 14 DECEMBER</div>
             <div className="text-xl font-bold">FESTIVE</div>
             <div className="text-xl font-bold">GLOW</div>
@@ -124,7 +124,7 @@ const OurWork = () => {
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <p className="text-orange-500 text-sm font-medium mb-2">Our Work</p>
+          <p className="text-teal-500 text-sm font-medium mb-2">Our Work</p>
           <h1 className="text-4xl font-bold text-gray-900 mb-8">
             Our Work Speaks for Itself
           </h1>

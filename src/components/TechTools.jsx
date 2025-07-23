@@ -72,17 +72,17 @@ const TechTools = () => {
     { name: 'Android Studio', icon: '🤖', color: 'bg-green-500' },
     { name: 'Adobe XD', icon: '🎯', color: 'bg-pink-500' },
     { name: 'Photoshop', icon: '🖼️', color: 'bg-blue-600' },
-    { name: 'Illustrator', icon: '🎪', color: 'bg-orange-500' }
+    { name: 'Illustrator', icon: '🎪', color: 'bg-teal-500' }
   ];
 
   const developmentTools = [
     { name: 'VS Code', icon: '💻', color: 'bg-blue-600' },
     { name: 'Shopify', icon: '🛍️', color: 'bg-green-600' },
-    { name: 'HTML5', icon: '🌐', color: 'bg-orange-500' },
+    { name: 'HTML5', icon: '🌐', color: 'bg-teal-500' },
     { name: 'Linux', icon: '🐧', color: 'bg-yellow-500' },
     { name: 'GitHub', icon: '🐙', color: 'bg-gray-800' },
     { name: 'WordPress', icon: '📰', color: 'bg-blue-500' },
-    { name: 'Reddit', icon: '🔥', color: 'bg-orange-600' },
+    { name: 'Reddit', icon: '🔥', color: 'bg-teal-600' },
     { name: 'Tumblr', icon: '📱', color: 'bg-indigo-500' }
   ];
 
@@ -182,7 +182,7 @@ const TechTools = () => {
                   {/* Woman illustration */}
                   <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2">
                     <div className="w-32 h-40 bg-yellow-400 rounded-t-full flex items-center justify-center">
-                      <div className="w-16 h-16 bg-orange-300 rounded-full mb-8"></div>
+                      <div className="w-16 h-16 bg-teal-300 rounded-full mb-8"></div>
                     </div>
                   </div>
                   
@@ -194,7 +194,7 @@ const TechTools = () => {
               </div>
 
               {/* CTA Card */}
-              <div className="bg-red-500 text-white p-8 rounded-full max-w-md text-center shadow-lg">
+              <div className="bg-teal-500 text-white p-8 rounded-full max-w-md text-center shadow-lg">
                 <h3 className="text-2xl font-bold mb-4">Have More Queries? Ask Us</h3>
                 <p className="text-red-100 mb-6 text-sm leading-relaxed">
                   If you have any more queries or would like to discuss things before stepping ahead, we would love to hear and satisfy you in every aspect. Contact us and let us know how we can assist you!

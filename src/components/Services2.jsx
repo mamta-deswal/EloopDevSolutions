@@ -68,7 +68,7 @@ const Services2 = () => {
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <p className="text-orange-500 text-sm font-medium mb-2">Services</p>
+          <p className="text-teal-500 text-sm font-medium mb-2">Services</p>
           <h1 className="text-4xl font-bold text-gray-900">
             What We Provide
           </h1>
@@ -79,7 +79,7 @@ const Services2 = () => {
           {services.map((service, index) => (
             <div key={index} className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
               {/* Icon */}
-              <div className="w-12 h-12 bg-orange-500 rounded-lg flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-teal-500 rounded-lg flex items-center justify-center mb-4">
                 {service.icon}
               </div>
 
@@ -108,7 +108,7 @@ const Services2 = () => {
               </div>
 
               {/* Learn More Button */}
-              <button className="flex items-center gap-2 text-gray-900 font-medium text-sm hover:text-orange-500 transition-colors">
+              <button className="flex items-center gap-2 text-gray-900 font-medium text-sm hover:text-teal-500 transition-colors">
                 Learn More
                 <div className="w-6 h-6 bg-gray-900 rounded-full flex items-center justify-center">
                   <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">

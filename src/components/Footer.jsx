@@ -93,8 +93,8 @@ const Footer = () => {
       {/* White Horizontal Bar */}
       <div className="bg-white py-16 px-6 relative">
         <div className="max-w-6xl mx-auto relative">
-          {/* Orange CTA Section placed within white bar */}
-          <div className="bg-gradient-to-r from-orange-500 to-red-500 py-12 px-6 rounded-2xl shadow-xl">
+          {/* teal CTA Section placed within white bar */}
+          <div className="bg-gradient-to-r from-teal-200 to-teal-300 py-12 px-6 rounded-2xl shadow-xl">
             <div className="text-center">
               <p className="text-sm font-medium mb-2 opacity-90 text-white">Work with us</p>
               <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white">
@@ -137,7 +137,7 @@ const Footer = () => {
                 <div key={index}>
                   <h4 
                     className={`font-medium mb-2 cursor-pointer transition-colors duration-300 ${
-                      hoveredItem === `office-${index}` ? 'text-orange-500' : 'text-white'
+                      hoveredItem === `office-${index}` ? 'text-teal-700' : 'text-white'
                     }`}
                     onMouseEnter={() => handleItemHover(`office-${index}`)}
                     onMouseLeave={handleItemLeave}
@@ -160,8 +160,7 @@ const Footer = () => {
                 <li key={index}>
                   <a 
                     href="#" 
-                    className={`text-sm transition-colors duration-300 hover:text-orange-500 ${
-                      hoveredItem === `service-${index}` ? 'text-orange-500' : 'text-gray-300'
+                    className={`text-sm transition-colors duration-300 hover:text-teal-700 ${hoveredItem === `service-${index}` ? 'text-teal-500' : 'text-gray-300'
                     }`}
                     onMouseEnter={() => handleItemHover(`service-${index}`)}
                     onMouseLeave={handleItemLeave}
@@ -181,8 +180,7 @@ const Footer = () => {
                 <li key={index}>
                   <a 
                     href="#" 
-                    className={`text-sm transition-colors duration-300 hover:text-orange-500 ${
-                      hoveredItem === `company-${index}` ? 'text-orange-500' : 'text-gray-300'
+                    className={`text-sm transition-colors duration-300 hover:text-teal-700 ${hoveredItem === `company-${index}` ? 'text-teal-500' : 'text-gray-300'
                     }`}
                     onMouseEnter={() => handleItemHover(`company-${index}`)}
                     onMouseLeave={handleItemLeave}
@@ -202,8 +200,7 @@ const Footer = () => {
                 <li key={index}>
                   <a 
                     href="#" 
-                    className={`text-sm transition-colors duration-300 hover:text-orange-500 ${
-                      hoveredItem === `other-${index}` ? 'text-orange-500' : 'text-gray-300'
+                    className={`text-sm transition-colors duration-300 hover:text-teal-700 ${hoveredItem === `other-${index}` ? 'text-teal-500' : 'text-gray-300'
                     }`}
                     onMouseEnter={() => handleItemHover(`other-${index}`)}
                     onMouseLeave={handleItemLeave}
@@ -223,8 +220,7 @@ const Footer = () => {
                 <li key={index}>
                   <a 
                     href={social.url} 
-                    className={`text-sm transition-colors duration-300 hover:text-orange-500 ${
-                      hoveredItem === `social-${index}` ? 'text-orange-500' : 'text-gray-300'
+                    className={`text-sm transition-colors duration-300 hover:text-teal-700 ${hoveredItem === `social-${index}` ? 'text-teal-500' : 'text-gray-300'
                     }`}
                     onMouseEnter={() => handleItemHover(`social-${index}`)}
                     onMouseLeave={handleItemLeave}

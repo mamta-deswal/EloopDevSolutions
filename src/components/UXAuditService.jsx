@@ -77,7 +77,7 @@ const UXAuditService = () => {
             <div className="lg:w-1/3 mt-8 lg:mt-0">
               <button
                 onClick={handleScheduleClick}
-                className="bg-orange-500 hover:bg-orange-600 text-white font-semibold text-lg px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg w-full lg:w-auto whitespace-nowrap"
+                className="bg-teal-500 hover:bg-teal-600 text-white font-semibold text-lg px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg w-full lg:w-auto whitespace-nowrap"
               >
                 Schedule Your Website's Checkup
               </button>
@@ -189,7 +189,7 @@ const UXAuditService = () => {
                       
                       <div className="p-4 bg-gray-800 text-white">
                         <div className="flex items-center gap-2 mb-4">
-                          <div className="w-8 h-8 bg-orange-500 rounded-full"></div>
+                          <div className="w-8 h-8 bg-teal-500 rounded-full"></div>
                           <div>
                             <div className="text-sm font-medium">Trending Tours</div>
                             <div className="text-xs text-gray-400">★★★★★</div>
@@ -239,12 +239,12 @@ const UXAuditService = () => {
                   </h4>
                   <button
                     onClick={handleChooseUXAudit}
-                    className="bg-red-500 hover:bg-red-600 text-white px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 flex items-center gap-2"
+                    className="bg-teal-500 hover:bg-teal-600 text-white px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 flex items-center gap-2"
                   >
                     →
                   </button>
                 </div>
-                <div className="absolute -top-4 -right-4 w-16 h-16 bg-red-500 rounded-full opacity-20"></div>
+                <div className="absolute -top-4 -right-4 w-16 h-16 bg-teal-500 rounded-full opacity-20"></div>
               </div>
             </div>
           </div>

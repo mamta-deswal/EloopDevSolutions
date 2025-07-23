@@ -47,7 +47,7 @@ const Payment = () => {
         'Payment Integration'
       ],
       buttonText: 'Get Started',
-      buttonClass: 'bg-orange-500 text-white hover:bg-orange-600'
+      buttonClass: 'bg-teal-500 text-white hover:bg-teal-600'
     },
     {
       id: 'premium',
@@ -150,7 +150,7 @@ const Payment = () => {
             >
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold">
+                  <span className="bg-teal-500 text-white px-4 py-2 rounded-full text-sm font-semibold">
                     Most Popular
                   </span>
                 </div>
@@ -199,7 +199,7 @@ const Payment = () => {
           {services.map((service, index) => (
             <div key={index} className="bg-gray-800 rounded-lg p-6">
               <div className="flex items-center justify-between mb-6">
-                <div className="bg-orange-500 text-white px-4 py-2 rounded-lg font-bold text-lg">
+                <div className="bg-teal-500 text-white px-4 py-2 rounded-lg font-bold text-lg">
                   {service.hours}
                 </div>
                 <div className="text-right">
@@ -222,7 +222,7 @@ const Payment = () => {
         <div className="text-center">
           <p className="text-gray-400 mb-4">
             Don't know how long this will take? 
-            <button className="text-orange-500 hover:text-orange-400 ml-2 font-semibold">
+            <button className="text-teal-500 hover:text-teal-400 ml-2 font-semibold">
               Book a Free Call →
             </button>
           </p>
@@ -234,12 +234,12 @@ const Payment = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {stats.map((stat, index) => (
             <div key={index} className="text-center bg-gray-800 rounded-lg p-6">
-              <div className="w-12 h-12 bg-orange-500 rounded-lg mx-auto mb-4 flex items-center justify-center">
+              <div className="w-12 h-12 bg-teal-500 rounded-lg mx-auto mb-4 flex items-center justify-center">
                 <span className="text-white font-bold text-lg">
                   {index === 0 ? '📊' : index === 1 ? '🌍' : index === 2 ? '🌐' : '⭐'}
                 </span>
               </div>
-              <div className="text-3xl font-bold text-orange-500 mb-2">{stat.number}</div>
+              <div className="text-3xl font-bold text-teal-500 mb-2">{stat.number}</div>
               <div className="text-gray-400">{stat.label}</div>
             </div>
           ))}

@@ -36,7 +36,7 @@ const Ecommerce = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-50 via-white to-orange-50 px-8 py-16">
+    <div className="min-h-screen bg-gradient-to-br from-pink-50 via-white to-teal-50 px-8 py-16">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
@@ -62,8 +62,8 @@ const Ecommerce = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {services.map((service) => (
                 <div key={service.id} className="flex items-center space-x-4">
-                  <div className="w-6 h-6 bg-orange-100 rounded-full flex items-center justify-center">
-                    <span className="text-orange-600 text-sm font-bold">✓</span>
+                  <div className="w-6 h-6 bg-teal-100 rounded-full flex items-center justify-center">
+                    <span className="text-teal-600 text-sm font-bold">✓</span>
                   </div>
                   <span className="text-gray-700 text-base">{service.title}</span>
                 </div>
@@ -74,7 +74,7 @@ const Ecommerce = () => {
             <div className="pt-4">
               <button
                 onClick={handlePortfolioClick}
-                className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center space-x-3"
+                className="bg-teal-500 hover:bg-teal-600 text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center space-x-3"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
                   <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z" />
@@ -90,7 +90,7 @@ const Ecommerce = () => {
           <div className="relative">
             {/* Background decorative elements */}
             <div className="absolute top-0 right-0 w-32 h-32 bg-pink-200 rounded-full opacity-30 -z-10"></div>
-            <div className="absolute bottom-20 left-0 w-24 h-24 bg-orange-200 rounded-full opacity-40 -z-10"></div>
+            <div className="absolute bottom-20 left-0 w-24 h-24 bg-teal-200 rounded-full opacity-40 -z-10"></div>
 
             {/* Main content container */}
             <div className="relative">
@@ -100,15 +100,15 @@ const Ecommerce = () => {
                   <span className="text-2xl">🪑</span>
                 </div>
                 <h3 className="font-semibold text-gray-900 text-sm mb-1">Office Mini Sofa</h3>
-                <p className="text-orange-500 font-bold text-lg">$48.00</p>
-                <button className="w-full bg-orange-500 text-white py-2 rounded-lg text-sm mt-2 hover:bg-orange-600 transition-colors">
+                <p className="text-teal-500 font-bold text-lg">$48.00</p>
+                <button className="w-full bg-teal-500 text-white py-2 rounded-lg text-sm mt-2 hover:bg-teal-600 transition-colors">
                   Add to Cart
                 </button>
               </div>
 
               {/* Main Person Image */}
               <div className="relative pl-70">
-                <div className="w-80 h-96 bg-gradient-to-br from-orange-400 to-pink-400 rounded-3xl flex items-end justify-center overflow-hidden">
+                <div className="w-80 h-96 bg-gradient-to-br from-teal-400 to-pink-400 rounded-3xl flex items-end justify-center overflow-hidden">
                   {/* Person silhouette */}
                   <div className="w-64 h-80 bg-red-300 rounded-t-full relative">
                     <div className="absolute top-8 left-1/2 transform -translate-x-1/2 w-16 h-16 bg-red-400 rounded-full"></div>
@@ -140,7 +140,7 @@ const Ecommerce = () => {
                     />
                   </svg>
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <span className="text-xl font-bold text-orange-500">95%</span>
+                    <span className="text-xl font-bold text-teal-500">95%</span>
                   </div>
                 </div>
                 <p className="text-xs text-gray-600 text-center">Success Rate</p>

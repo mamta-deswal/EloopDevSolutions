@@ -9,21 +9,21 @@ const TackleProblem = () => {
           <div className="text-white text-xs mb-2">User Review: 4.3</div>
           <div className="space-y-2 mb-4">
             <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+              <div className="w-2 h-2 bg-teal-500 rounded-full"></div>
               <div className="w-20 h-2 bg-gray-600 rounded"></div>
             </div>
             <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+              <div className="w-2 h-2 bg-teal-500 rounded-full"></div>
               <div className="w-16 h-2 bg-gray-600 rounded"></div>
             </div>
             <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+              <div className="w-2 h-2 bg-teal-500 rounded-full"></div>
               <div className="w-24 h-2 bg-gray-600 rounded"></div>
             </div>
           </div>
           <div className="absolute right-4 top-1/2 transform -translate-y-1/2">
-            <div className="w-16 h-16 rounded-full border-4 border-green-500 flex items-center justify-center">
-              <span className="text-green-500 font-bold text-lg">4.3</span>
+            <div className="w-16 h-16 rounded-full border-4 border-teal-500 flex items-center justify-center">
+              <span className="text-teal-500 font-bold text-lg">4.3</span>
             </div>
           </div>
         </div>
@@ -49,7 +49,7 @@ const TackleProblem = () => {
               <div className="w-4/5 h-2 bg-gray-600 rounded"></div>
             </div>
           </div>
-          <div className="absolute top-4 right-4 w-2 h-2 bg-green-500 rounded-full"></div>
+          <div className="absolute top-4 right-4 w-2 h-2 bg-teal-500 rounded-full"></div>
         </div>
       ),
       title: 'Inconsistent Subscription Page UI Design',
@@ -67,12 +67,12 @@ const TackleProblem = () => {
           </div>
           <div className="bg-gray-700 rounded-lg p-3">
             <div className="flex items-center gap-2 mb-2">
-              <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+              <div className="w-2 h-2 bg-teal-500 rounded-full"></div>
               <div className="text-white text-xs">Connected</div>
             </div>
             <div className="w-full h-2 bg-gray-600 rounded"></div>
           </div>
-          <div className="absolute bottom-4 right-4 w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
+          <div className="absolute bottom-4 right-4 w-8 h-8 bg-teal-500 rounded-full flex items-center justify-center">
             <div className="w-3 h-3 bg-white rounded-full"></div>
           </div>
         </div>
@@ -94,7 +94,7 @@ const TackleProblem = () => {
           <div className="space-y-2">
             <div className="flex items-center gap-2">
               <div className="w-3 h-3 bg-gray-600 rounded-full"></div>
-              <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+              <div className="w-3 h-3 bg-teal-500 rounded-full"></div>
               <div className="w-3 h-3 bg-gray-600 rounded-full"></div>
             </div>
             <div className="w-full h-2 bg-gray-600 rounded"></div>
@@ -124,7 +124,7 @@ const TackleProblem = () => {
             <div className="w-6 h-6 bg-gray-600 rounded-full flex items-center justify-center">
               <div className="w-2 h-2 bg-white rounded-full"></div>
             </div>
-            <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
+            <div className="w-6 h-6 bg-teal-500 rounded-full flex items-center justify-center">
               <div className="w-2 h-2 bg-white rounded-full"></div>
             </div>
           </div>
@@ -146,7 +146,7 @@ const TackleProblem = () => {
             <div className="w-full h-2 bg-gray-600 rounded mb-1"></div>
             <div className="w-2/3 h-2 bg-gray-600 rounded"></div>
           </div>
-          <div className="absolute bottom-4 right-4 bg-green-500 rounded px-2 py-1">
+          <div className="absolute bottom-4 right-4 bg-teal-500 rounded px-2 py-1">
             <span className="text-white text-xs">Premium Available</span>
           </div>
         </div>
@@ -161,7 +161,7 @@ const TackleProblem = () => {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <p className="text-orange-500 text-sm font-medium mb-2">Tackle Problems</p>
+          <p className="text-teal-500 text-sm font-medium mb-2">Tackle Problems</p>
           <h1 className="text-4xl font-bold text-white mb-4">
             Problems We Can Tackle
           </h1>

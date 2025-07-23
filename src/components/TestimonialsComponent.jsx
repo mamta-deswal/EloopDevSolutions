@@ -94,7 +94,7 @@ const TestimonialsComponent = () => {
         </svg>
         
         {/* Location dots */}
-        <div className="absolute top-20 left-20 w-3 h-3 bg-orange-500 rounded-full"></div>
+        <div className="absolute top-20 left-20 w-3 h-3 bg-teal-500 rounded-full"></div>
         <div className="absolute top-32 right-40 w-3 h-3 bg-blue-500 rounded-full"></div>
         <div className="absolute top-48 left-1/3 w-3 h-3 bg-green-500 rounded-full"></div>
         <div className="absolute top-64 right-1/4 w-3 h-3 bg-purple-500 rounded-full"></div>
@@ -106,7 +106,7 @@ const TestimonialsComponent = () => {
         {/* Header */}
         <div className="mb-16">
           <div className="flex items-center gap-2 mb-6">
-            <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
+            <div className="w-8 h-8 bg-teal-500 rounded-full flex items-center justify-center">
               <span className="text-white font-bold text-sm">T</span>
             </div>
             <span className="text-white font-semibold">Testimonials</span>
@@ -117,7 +117,7 @@ const TestimonialsComponent = () => {
             Our Hearts
           </h1>
           
-          <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-full font-semibold transition-colors duration-200 flex items-center gap-2">
+          <button className="bg-teal-500 hover:bg-teal-600 text-white px-8 py-4 rounded-full font-semibold transition-colors duration-200 flex items-center gap-2">
             <span className="w-6 h-6 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
               ✓
             </span>
@@ -139,7 +139,7 @@ const TestimonialsComponent = () => {
               </p>
               
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-gradient-to-br from-orange-400 to-orange-600 rounded-full flex items-center justify-center">
+                <div className="w-12 h-12 bg-gradient-to-br from-teal-400 to-teal-600 rounded-full flex items-center justify-center">
                   <span className="text-white font-bold text-lg">
                     {testimonial.name.split(' ').map(n => n[0]).join('')}
                   </span>
@@ -160,7 +160,7 @@ const TestimonialsComponent = () => {
                       className="w-12 h-12 bg-black bg-opacity-10 hover:bg-opacity-20 rounded-full flex items-center justify-center transition-all duration-200 group outline-1"
           >
             <svg 
-              className="w-6 h-6 text-white group-hover:text-orange-400 transition-colors" 
+              className="w-6 h-6 text-white group-hover:text-teal-400 transition-colors" 
               fill="none" 
               stroke="currentColor" 
               viewBox="0 0 24 24"
@@ -179,7 +179,7 @@ const TestimonialsComponent = () => {
                       className="w-12 h-12 bg-black bg-opacity-10 hover:bg-opacity-20 rounded-full flex items-center justify-center transition-all duration-200 group outline-1"
           >
             <svg 
-              className="w-6 h-6 text-white group-hover:text-orange-400 transition-colors" 
+              className="w-6 h-6 text-white group-hover:text-teal-400 transition-colors" 
               fill="none" 
               stroke="currentColor" 
               viewBox="0 0 24 24"
@@ -200,7 +200,7 @@ const TestimonialsComponent = () => {
             <div
               key={index}
               className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                index === currentIndex ? 'bg-orange-500' : 'bg-gray-600'
+                index === currentIndex ? 'bg-teal-500' : 'bg-gray-600'
               }`}
             />
           ))}

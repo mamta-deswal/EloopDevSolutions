@@ -6,7 +6,7 @@ const WhatWeInclude = () => {
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <p className="text-orange-500 text-sm font-medium mb-2">What We Include</p>
+          <p className="text-teal-500 text-sm font-medium mb-2">What We Include</p>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
             What's Included in Your Subscription Plan?
           </h1>
@@ -30,7 +30,7 @@ const WhatWeInclude = () => {
                 <div className="bg-gray-900 text-white rounded-lg px-4 py-2 text-sm inline-block">
                   prototyping
                 </div>
-                <div className="absolute -bottom-2 -right-2 w-6 h-6 bg-orange-500 rounded-full flex items-center justify-center">
+                <div className="absolute -bottom-2 -right-2 w-6 h-6 bg-teal-500 rounded-full flex items-center justify-center">
                   <div className="w-2 h-2 bg-white rounded-full"></div>
                 </div>
               </div>
@@ -64,7 +64,7 @@ const WhatWeInclude = () => {
               </div>
               <div className="flex justify-between items-center mt-3">
                 <div className="w-12 h-8 bg-gray-900 rounded"></div>
-                <div className="bg-orange-500 text-white rounded-full px-3 py-1 text-xs">
+                <div className="bg-teal-500 text-white rounded-full px-3 py-1 text-xs">
                   NEW
                 </div>
               </div>
@@ -86,7 +86,7 @@ const WhatWeInclude = () => {
                 </div>
                 <div className="space-y-3">
                   <div className="flex items-center gap-3">
-                    <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
+                    <div className="w-8 h-8 bg-teal-500 rounded-full flex items-center justify-center">
                       <span className="text-white text-xs font-medium">D</span>
                     </div>
                     <span className="text-sm text-gray-700">Designer</span>
@@ -98,7 +98,7 @@ const WhatWeInclude = () => {
                     <span className="text-sm text-gray-700">Client</span>
                   </div>
                   <div className="flex gap-2 mt-4">
-                    <div className="bg-orange-500 text-white rounded px-3 py-1 text-xs">1</div>
+                    <div className="bg-teal-500 text-white rounded px-3 py-1 text-xs">1</div>
                     <div className="bg-gray-800 text-white rounded px-3 py-1 text-xs">2</div>
                   </div>
                 </div>
@@ -118,7 +118,7 @@ const WhatWeInclude = () => {
               <div className="bg-gray-100 rounded-lg p-4">
                 <div className="mb-3">
                   <h4 className="font-medium text-gray-900 mb-3">All Tasks</h4>
-                  <div className="bg-orange-500 w-4 h-4 rounded-full flex items-center justify-center mb-3">
+                  <div className="bg-teal-500 w-4 h-4 rounded-full flex items-center justify-center mb-3">
                     <span className="text-white text-xs">1</span>
                   </div>
                 </div>
@@ -137,7 +137,7 @@ const WhatWeInclude = () => {
                   </div>
                 </div>
                 <div className="mt-4 w-16 h-16 bg-gray-800 rounded-lg flex items-center justify-center">
-                  <div className="w-8 h-8 bg-orange-500 rounded"></div>
+                  <div className="w-8 h-8 bg-teal-500 rounded"></div>
                 </div>
               </div>
             </div>
@@ -173,7 +173,7 @@ const WhatWeInclude = () => {
                   <div className="w-16 h-12 bg-white rounded border-2 border-gray-300 flex items-center justify-center">
                     <div className="text-xs text-gray-500">Code</div>
                   </div>
-                  <div className="bg-orange-500 text-white rounded-full px-3 py-1 text-xs">
+                  <div className="bg-teal-500 text-white rounded-full px-3 py-1 text-xs">
                     NEW
                   </div>
                 </div>
@@ -192,7 +192,7 @@ const WhatWeInclude = () => {
             <h3 className="text-2xl font-bold mb-4">
               Schedule a Free<br />Consultation
             </h3>
-            <button className="bg-orange-500 hover:bg-orange-600 text-white font-medium py-3 px-6 rounded-lg transition-colors">
+            <button className="bg-teal-500 hover:bg-teal-600 text-white font-medium py-3 px-6 rounded-lg transition-colors">
               Book a Free Consultation
             </button>
           </div>

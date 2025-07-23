@@ -22,7 +22,7 @@ const Worked = () => {
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-12">
-          <p className="text-orange-600  mb-2 font-bold text-3xl">TRUSTED CLIENTS</p>
+          <p className="text-teal-600  mb-2 font-bold text-3xl">TRUSTED CLIENTS</p>
           <h2 className="text-3xl font-bold text-white mb-4">
             Firms Who Relied On Us & Got The Best Results
           </h2>
@@ -51,7 +51,7 @@ const Worked = () => {
                       </div>
                       <span>ARCHSIXO</span>
                     </div>
-                    <div className="text-orange-400 font-bold text-xl whitespace-nowrap">
+                    <div className="text-teal-400 font-bold text-xl whitespace-nowrap">
                       BRIOLINE
                     </div>
                   </div>

@@ -14,7 +14,7 @@ const HiringProcessComponent = () => {
       title: "Schedule A Call",
       description: "Schedule a call with our team to discuss needs, timelines, and goals.",
       icon: (
-        <svg className="w-12 h-12 text-orange-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <svg className="w-12 h-12 text-teal-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
         </svg>
       )
@@ -24,7 +24,7 @@ const HiringProcessComponent = () => {
       title: "Get Consultation",
       description: "In-depth discussion with experts. Analyze requirements and feasibility",
       icon: (
-        <svg className="w-12 h-12 text-orange-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <svg className="w-12 h-12 text-teal-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
           <path d="M8 9l4 4 4-4"/>
         </svg>
@@ -35,7 +35,7 @@ const HiringProcessComponent = () => {
       title: "Get An Estimate",
       description: "Get a detailed project estimate and choose an engagement, from Us.",
       icon: (
-        <svg className="w-12 h-12 text-orange-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <svg className="w-12 h-12 text-teal-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
           <polyline points="14,2 14,8 20,8"/>
           <line x1="16" y1="13" x2="8" y2="13"/>
@@ -49,7 +49,7 @@ const HiringProcessComponent = () => {
       title: "Kickoff The Project",
       description: "Initiate the project with a meet-and-greet session. Followed by onboarding.",
       icon: (
-        <svg className="w-12 h-12 text-orange-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <svg className="w-12 h-12 text-teal-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
         </svg>
       )
@@ -87,10 +87,10 @@ const HiringProcessComponent = () => {
             <div className="lg:w-1/3 flex justify-center lg:justify-end">
               <button
                 onClick={() => navigate('/Blog')}
-                className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center gap-3"
+                className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center gap-3"
               >
                 <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center">
-                  <svg className="w-3 h-3 text-orange-500" viewBox="0 0 24 24" fill="currentColor">
+                  <svg className="w-3 h-3 text-teal-500" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M8 5v14l11-7z"/>
                   </svg>
                 </div>
@@ -106,7 +106,7 @@ const HiringProcessComponent = () => {
             <div
               key={step.id}
               className={`relative bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition-all duration-300 cursor-pointer transform hover:-translate-y-2 ${
-                currentStep === index ? 'ring-2 ring-orange-500' : ''
+                currentStep === index ? 'ring-2 ring-teal-500' : ''
               }`}
               onClick={() => setCurrentStep(index)}
             >
@@ -119,7 +119,7 @@ const HiringProcessComponent = () => {
 
               {/* Icon */}
               <div className="mb-6 flex justify-center">
-                <div className="p-3 bg-orange-50 rounded-2xl">
+                <div className="p-3 bg-teal-50 rounded-2xl">
                   {step.icon}
                 </div>
               </div>
@@ -135,7 +135,7 @@ const HiringProcessComponent = () => {
               </div>
 
               {/* Hover Effect */}
-              <div className="absolute inset-0 bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl opacity-0 hover:opacity-5 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-teal-500 to-red-500 rounded-2xl opacity-0 hover:opacity-5 transition-opacity duration-300"></div>
             </div>
           ))}
         </div>

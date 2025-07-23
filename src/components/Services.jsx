@@ -4,22 +4,22 @@ const Services = () => {
     const services = [
         {
             title: "Adept Development Services",
-            color: "bg-sky-300",
+            color: "bg-teal-200",
             textColor: "text-gray-800"
         },
         {
             title: "User-Friendly & Satisfying Designing Services",
-            color: "bg-yellow-200",
+            color: "bg-teal-200",
             textColor: "text-gray-800"
         },
         {
             title: "Expert UX Auditing Services",
-            color: "bg-blue-200",
+            color: "bg-teal-200",
             textColor: "text-gray-800"
         },
         {
             title: "Strategic Branding Services",
-            color: "bg-pink-200",
+            color: "bg-teal-200",
             textColor: "text-gray-800"
         }
     ];

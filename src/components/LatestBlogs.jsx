@@ -198,7 +198,7 @@ const LatestBlogs = () => {
 
                 {/* Header */}
                 <div className="text-center mb-12">
-                    <div className="inline-block bg-orange-100 text-orange-600 px-4 py-2 rounded-full text-sm font-medium mb-4">
+                    <div className="inline-block bg-teal-100 text-teal-600 px-4 py-2 rounded-full text-sm font-medium mb-4">
                         Blog Posts
                     </div>
                     <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
@@ -249,7 +249,7 @@ const LatestBlogs = () => {
                 {/* View All Blogs Button */}
                 <div className="text-center">
                     <button
-                        className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-orange-600 hover:to-red-600 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center gap-3 mx-auto"
+                        className="bg-gradient-to-r from-teal-500 to-teal-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-teal-600 hover:to-teal-600 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center gap-3 mx-auto"
                     >
                         <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                             <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />

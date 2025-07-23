@@ -2,7 +2,7 @@
 
 // const CostEffectiveDesign = () => {
 //   const [selectedService, setSelectedService] = useState('Website Design');
-  
+
 //   const services = [
 //     'Website Design',
 //     'App Design',
@@ -25,10 +25,10 @@
 //   return (
 //     <div className="min-h-screen bg-gray-50 py-12 px-4">
 //       <div className="max-w-6xl mx-auto">
-        
+
 //         {/* Header */}
 //         <div className="text-center mb-12">
-//           <div className="inline-block bg-orange-100 text-orange-600 px-4 py-2 rounded-full text-sm font-medium mb-4">
+//           <div className="inline-block bg-teal-100 text-teal-600 px-4 py-2 rounded-full text-sm font-medium mb-4">
 //             Cost-Effective Choice
 //           </div>
 //           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8">
@@ -38,15 +38,15 @@
 
 //         {/* Comparison Section */}
 //         <div className="flex flex-col md:flex-row items-center justify-center gap-8 mb-16">
-          
+
 //           {/* Mad Brains Side */}
 //           <div className="flex items-center gap-4">
-//             <div className="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center">
+//             <div className="w-16 h-16 bg-teal-500 rounded-full flex items-center justify-center">
 //               <span className="text-white font-bold text-2xl">A</span>
 //             </div>
 //             <div>
 //               <div className="text-lg font-semibold text-gray-900 mb-1">ELoopDev Solutions</div>
-//               <div className="text-2xl font-bold text-green-600">$599/40 Hours</div>
+//               <div className="text-2xl font-bold text-teal-600">$599/40 Hours</div>
 //             </div>
 //           </div>
 
@@ -71,7 +71,7 @@
 //         </div>
 
 //         {/* Call to Action Section */}
-//         <div className="bg-gradient-to-r from-orange-500 to-red-500 rounded-3xl p-8 md:p-12 text-white relative overflow-hidden">
+//         <div className="bg-gradient-to-r from-teal-500 to-red-500 rounded-3xl p-8 md:p-12 text-white relative overflow-hidden">
 //           {/* Background Pattern */}
 //           <div className="absolute inset-0 opacity-10">
 //             <div className="absolute top-4 right-4 w-20 h-20 border-2 border-white rounded-full"></div>
@@ -96,7 +96,7 @@
 //                     onClick={() => handleServiceClick(service)}
 //                     className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
 //                       selectedService === service
-//                         ? 'bg-white text-orange-500 shadow-lg transform scale-105'
+//                         ? 'bg-white text-teal-500 shadow-lg transform scale-105'
 //                         : 'bg-white bg-opacity-20 text-white hover:bg-opacity-30'
 //                     }`}
 //                   >
@@ -115,7 +115,7 @@
               
 //               <button
 //                 onClick={handleBookTrial}
-//                 className="bg-white text-orange-500 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+//                 className="bg-white text-teal-500 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
 //               >
 //                 Book a Trial Today
 //               </button>
@@ -163,7 +163,7 @@ const CostEffectiveDesign = () => {
         
         {/* Header */}
         <div className="text-center mb-8 sm:mb-10 md:mb-12 lg:mb-16">
-          <div className="inline-block bg-orange-100 text-orange-600 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-medium mb-3 sm:mb-4">
+          <div className="inline-block bg-teal-100 text-teal-600 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-medium mb-3 sm:mb-4">
             Cost-Effective Choice
           </div>
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 mb-4 sm:mb-6 md:mb-8 leading-tight px-2">
@@ -176,12 +176,12 @@ const CostEffectiveDesign = () => {
           
           {/* ELoopDev Solutions Side */}
           <div className="flex items-center gap-3 sm:gap-4 w-full sm:w-auto justify-center sm:justify-start">
-            <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-18 lg:h-18 bg-orange-500 rounded-full flex items-center justify-center flex-shrink-0">
+            <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-18 lg:h-18 bg-teal-500 rounded-full flex items-center justify-center flex-shrink-0">
               <span className="text-white font-bold text-lg sm:text-xl md:text-2xl">E</span>
             </div>
             <div className="text-center sm:text-left">
               <div className="text-sm sm:text-base md:text-lg font-semibold text-gray-900 mb-1">ELoopDev Solutions</div>
-              <div className="text-xl sm:text-2xl md:text-2xl lg:text-3xl font-bold text-green-600">$599/40 Hours</div>
+              <div className="text-xl sm:text-2xl md:text-2xl lg:text-3xl font-bold text-teal-600">$599/40 Hours</div>
             </div>
           </div>
 
@@ -200,13 +200,13 @@ const CostEffectiveDesign = () => {
             </div>
             <div className="text-center sm:text-left">
               <div className="text-sm sm:text-base md:text-lg font-semibold text-gray-900 mb-1">Other Agencies</div>
-              <div className="text-xl sm:text-2xl md:text-2xl lg:text-3xl font-bold text-red-600">$3,000-$10,000+</div>
+              <div className="text-xl sm:text-2xl md:text-2xl lg:text-3xl font-bold text-teal-600">$3,000-$10,000+</div>
             </div>
           </div>
         </div>
 
         {/* Call to Action Section */}
-        <div className="bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 lg:p-12 xl:p-16 text-white relative overflow-hidden">
+        <div className="bg-gradient-to-r from-teal-300 to-teal-400 rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 lg:p-12 xl:p-16 text-white relative overflow-hidden">
           {/* Background Pattern */}
           <div className="absolute inset-0 opacity-10">
             <div className="absolute top-2 right-2 sm:top-4 sm:right-4 w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 border-2 border-white rounded-full"></div>
@@ -231,7 +231,7 @@ const CostEffectiveDesign = () => {
                     onClick={() => handleServiceClick(service)}
                     className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-medium transition-all duration-300 ${
                       selectedService === service
-                        ? 'bg-white text-orange-500 shadow-lg transform scale-105'
+                        ? 'bg-white text-teal-500 shadow-lg transform scale-105'
                       : 'bg-white bg-opacity-20 text-black hover:bg-opacity-30 active:bg-opacity-40'
                     }`}
                   >
@@ -250,7 +250,7 @@ const CostEffectiveDesign = () => {
               
               <button
                 onClick={handleBookTrial}
-                className="bg-white text-orange-500 px-6 sm:px-8 md:px-10 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg md:text-xl hover:bg-gray-100 active:bg-gray-200 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 active:scale-95 w-full sm:w-auto min-w-[200px] sm:min-w-[240px]"
+                className="bg-white text-teal-500 px-6 sm:px-8 md:px-10 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg md:text-xl hover:bg-gray-100 active:bg-gray-200 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 active:scale-95 w-full sm:w-auto min-w-[200px] sm:min-w-[240px]"
               >
                 Book a Trial Today
               </button>

@@ -119,7 +119,7 @@ const SubscriptionProcess = () => {
                 </button>
               ))}
               {selectedPlan === 'Plan - B' && (
-                <div className="absolute -right-2 top-16 w-0 h-0 border-l-8 border-l-orange-500 border-t-8 border-t-transparent border-b-8 border-b-transparent"></div>
+                <div className="absolute -right-2 top-16 w-0 h-0 border-l-8 border-l-teal-500 border-t-8 border-t-transparent border-b-8 border-b-transparent"></div>
               )}
             </div>
           </StepCard>
@@ -185,7 +185,7 @@ const SubscriptionProcess = () => {
           >
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
-                <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
+                <div className="w-8 h-8 bg-teal-500 rounded-full flex items-center justify-center">
                   <span className="text-white text-xs">D</span>
                 </div>
                 <span className="text-sm text-gray-800">Designer</span>
@@ -210,7 +210,7 @@ const SubscriptionProcess = () => {
 
       {/* CTA Button */}
       <div className="text-center pb-12">
-        <button className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+        <button className="bg-gradient-to-r from-teal-500 to-teal-500 hover:from-teal-600 hover:to-red-600 text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
           Start with $599 only
         </button>
       </div>

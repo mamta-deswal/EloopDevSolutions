@@ -109,7 +109,7 @@ export default function MadBrainsBlogPage() {
                   placeholder="Search Blog..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full pl-4 pr-12 py-2 bg-gray-100 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+                className="w-full pl-4 pr-12 py-2 bg-gray-100 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
                 />
                 <button
                   onClick={handleSearch}
@@ -128,7 +128,7 @@ export default function MadBrainsBlogPage() {
                 onClick={() => setSelectedCategory(category)}
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
                   selectedCategory === category
-                    ? 'bg-orange-500 text-white'
+                  ? 'bg-teal-500 text-white'
                     : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
                 }`}
               >
@@ -150,9 +150,9 @@ export default function MadBrainsBlogPage() {
               {/* Featured Post Layout */}
               {post.featured ? (
                 <div className="md:flex">
-                  <div className="md:w-1/2 p-8 bg-gradient-to-br from-orange-50 to-pink-50 relative">
+                  <div className="md:w-1/2 p-8 bg-gradient-to-br from-teal-50 to-pink-50 relative">
                     <div className="absolute top-0 left-0 w-full h-full opacity-10">
-                      <div className="w-full h-full bg-gradient-to-br from-orange-200 to-pink-200 rounded-full transform -translate-x-1/2 -translate-y-1/2 scale-150"></div>
+                      <div className="w-full h-full bg-gradient-to-br from-teal-200 to-pink-200 rounded-full transform -translate-x-1/2 -translate-y-1/2 scale-150"></div>
                     </div>
                     <div className="relative z-10">
                       <div className="w-16 h-16 bg-yellow-400 rounded-2xl flex items-center justify-center mb-6">
@@ -171,7 +171,7 @@ export default function MadBrainsBlogPage() {
                         <p className="text-gray-600 mb-4">{post.excerpt}</p>
                         <button
                           onClick={() => handleReadMore(post.id)}
-                          className="bg-orange-500 text-white px-6 py-2 rounded-full hover:bg-orange-600 transition-colors font-medium"
+                          className="bg-teal-500 text-white px-6 py-2 rounded-full hover:bg-teal-600 transition-colors font-medium"
                         >
                           Read Full Blog
                         </button>
@@ -213,7 +213,7 @@ export default function MadBrainsBlogPage() {
                     <p className="text-gray-600 mb-4">{post.excerpt}</p>
                     <button
                       onClick={() => handleReadMore(post.id)}
-                      className="bg-orange-500 text-white px-6 py-2 rounded-full hover:bg-orange-600 transition-colors font-medium"
+                        className="bg-teal-500 text-white px-6 py-2 rounded-full hover:bg-teal-600 transition-colors font-medium"
                     >
                       Read Full Blog
                     </button>
@@ -261,16 +261,16 @@ export default function MadBrainsBlogPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Blog Card 1 - UI/UX */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-              <div className="h-48 bg-gradient-to-br from-yellow-100 to-orange-100 p-6 flex items-center justify-center relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-yellow-50 to-orange-50"></div>
+              <div className="h-48 bg-gradient-to-br from-yellow-100 to-teal-100 p-6 flex items-center justify-center relative">
+                <div className="absolute inset-0 bg-gradient-to-br from-yellow-50 to-teal-50"></div>
                 <div className="relative z-10">
                   {/* Rocket Illustration */}
                   <div className="w-24 h-32 mx-auto">
                     <div className="relative">
-                      <div className="w-16 h-20 bg-gradient-to-b from-orange-500 to-red-500 rounded-t-full mx-auto"></div>
+                      <div className="w-16 h-20 bg-gradient-to-b from-teal-500 to-red-500 rounded-t-full mx-auto"></div>
                       <div className="w-8 h-8 bg-yellow-400 rounded-full absolute top-6 left-1/2 transform -translate-x-1/2"></div>
-                      <div className="w-4 h-8 bg-orange-600 absolute -bottom-2 left-2 rounded-b-full"></div>
-                      <div className="w-4 h-8 bg-orange-600 absolute -bottom-2 right-2 rounded-b-full"></div>
+                      <div className="w-4 h-8 bg-teal-600 absolute -bottom-2 left-2 rounded-b-full"></div>
+                      <div className="w-4 h-8 bg-teal-600 absolute -bottom-2 right-2 rounded-b-full"></div>
                     </div>
                   </div>
                   {/* Floating Icons */}
@@ -303,7 +303,7 @@ export default function MadBrainsBlogPage() {
                   {/* E-commerce Illustration */}
                   <div className="w-32 h-24 bg-white rounded-lg shadow-md p-4 mx-auto">
                     <div className="flex items-center justify-between mb-2">
-                      <div className="w-8 h-6 bg-orange-500 rounded"></div>
+                      <div className="w-8 h-6 bg-teal-500 rounded"></div>
                       <div className="flex space-x-1">
                         <div className="w-2 h-2 bg-red-500 rounded-full"></div>
                         <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
@@ -316,7 +316,7 @@ export default function MadBrainsBlogPage() {
                     </div>
                   </div>
                   {/* Shopping Cart Icon */}
-                  <div className="absolute top-4 right-4 w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
+                  <div className="absolute top-4 right-4 w-8 h-8 bg-teal-500 rounded-full flex items-center justify-center">
                     <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M7 4V2C7 1.45 7.45 1 8 1S9 1.55 9 2V4H15V2C15 1.45 15.45 1 16 1S17 1.55 17 2V4H19C20.1 4 21 4.9 21 6V8H3V6C3 4.9 3.9 4 5 4H7Z"/>
                     </svg>
@@ -325,7 +325,7 @@ export default function MadBrainsBlogPage() {
               </div>
               <div className="p-6">
                 <div className="flex items-center justify-between mb-4">
-                  <span className="text-sm text-orange-600 font-medium">CRO</span>
+                  <span className="text-sm text-teal-600 font-medium">CRO</span>
                   <span className="text-sm text-gray-500">05/27/2025</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3 leading-tight">
@@ -339,8 +339,8 @@ export default function MadBrainsBlogPage() {
 
             {/* Blog Card 3 - Web Design */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-              <div className="h-48 bg-gradient-to-br from-yellow-100 to-orange-100 p-6 flex items-center justify-center relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-yellow-50 to-orange-50"></div>
+              <div className="h-48 bg-gradient-to-br from-yellow-100 to-teal-100 p-6 flex items-center justify-center relative">
+                <div className="absolute inset-0 bg-gradient-to-br from-yellow-50 to-teal-50"></div>
                 <div className="relative z-10">
                   {/* Website Mockup */}
                   <div className="w-32 h-20 bg-white rounded-lg shadow-md p-3 mx-auto">

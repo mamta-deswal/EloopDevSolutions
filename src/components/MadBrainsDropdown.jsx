@@ -101,7 +101,7 @@ const WhatWe = () => {
                         {service.icon}
                       </div>
                       <div className="flex-1">
-                        <h4 className="font-semibold text-gray-800 mb-1 group-hover:text-orange-600 transition-colors">
+                        <h4 className="font-semibold text-gray-800 mb-1 group-hover:text-teal-600 transition-colors">
                           {service.title}
                         </h4>
                         <p className="text-gray-600 text-sm leading-relaxed">

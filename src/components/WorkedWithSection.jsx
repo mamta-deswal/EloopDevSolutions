@@ -112,7 +112,7 @@ const WorkedWithSection = () => {
                     <div className="text-xs text-gray-600">FEEDBACK</div>
                   </div>
                 </div>
-                <div className="absolute -top-2 -right-2 w-6 h-6 bg-orange-500 rounded-full"></div>
+                <div className="absolute -top-2 -right-2 w-6 h-6 bg-teal-500 rounded-full"></div>
               </div>
             </div>
           </div>

@@ -31,7 +31,7 @@ const SubscriptionLanding = () => {
   ];
 
   const stats = [
-    { value: "500+", label: "Projects Completed", color: "from-orange-500 to-pink-500" },
+    { value: "500+", label: "Projects Completed", color: "from-teal-500 to-pink-500" },
     { value: "98%", label: "Client Satisfaction Rate", color: "from-blue-500 to-purple-500" },
     { value: "30%", label: "Average Increase in Conversions", color: "from-green-500 to-teal-500" }
   ];
@@ -58,7 +58,7 @@ const SubscriptionLanding = () => {
             <div className={`transform transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'}`}>
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight mb-6">
                 Welcome to the Future of{' '}
-                <span className="bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-teal-200 to-teal-400 bg-clip-text text-transparent">
                   Subscription UI/UX
                 </span>
                 <br />
@@ -75,7 +75,7 @@ const SubscriptionLanding = () => {
 
               {/* CTA Button */}
               <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-6 mb-12">
-                <button className="bg-gradient-to-r from-orange-500 to-pink-500 hover:from-orange-600 hover:to-pink-600 text-white font-semibold px-8 py-4 rounded-full transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                <button className="bg-gradient-to-r from-teal-200 to-teal-400 hover:from-teal-600 hover:to-teal-600 text-white font-semibold px-8 py-4 rounded-full transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
                   Start Your Free Trial
                 </button>
 
@@ -86,7 +86,7 @@ const SubscriptionLanding = () => {
                       <div
                         key={index}
                         className={`w-12 h-12 rounded-full border-2 border-white bg-gradient-to-br from-gray-700 to-gray-900 flex items-center justify-center text-xl transition-all duration-300 ${
-                          index === activeTestimonial ? 'scale-110 ring-2 ring-orange-500' : ''
+                          index === activeTestimonial ? 'scale-110 ring-2 ring-teal-500' : ''
                         }`}
                       >
                         {testimonial.avatar}
@@ -140,7 +140,7 @@ const SubscriptionLanding = () => {
                   {/* Team Members Representation */}
                   <div className="flex -space-x-4 justify-center mb-4">
                     {[...Array(3)].map((_, i) => (
-                      <div key={i} className="w-12 h-12 rounded-full bg-gradient-to-br from-orange-500 to-pink-500 border-2 border-white flex items-center justify-center text-white font-semibold">
+                      <div key={i} className="w-12 h-12 rounded-full bg-gradient-to-br from-teal-500 to-pink-500 border-2 border-white flex items-center justify-center text-white font-semibold">
                         {String.fromCharCode(65 + i)}
                       </div>
                     ))}

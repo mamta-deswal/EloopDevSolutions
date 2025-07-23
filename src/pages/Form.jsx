@@ -239,7 +239,7 @@ function Form() {
                                     placeholder="Full Name"
                                     value={formData.fullName}
                                     onChange={handleInputChange}
-                                    className={`w-full px-4 py-3 rounded-lg border-2 transition-colors focus:outline-none focus:ring-2 focus:ring-orange-500 ${errors.fullName ? 'border-red-500' : 'border-gray-200 focus:border-orange-500'
+                    className={`w-full px-4 py-3 rounded-lg border-2 transition-colors focus:outline-none focus:ring-2 focus:ring-teal-500 ${errors.fullName ? 'border-red-500' : 'border-gray-200 focus:border-teal-500'
                                         }`}
                                 />
                                 {errors.fullName && <p className="text-red-500 text-sm mt-1">{errors.fullName}</p>}
@@ -253,7 +253,7 @@ function Form() {
                                     placeholder="Work Email *"
                                     value={formData.workEmail}
                                     onChange={handleInputChange}
-                                    className={`w-full px-4 py-3 rounded-lg border-2 transition-colors focus:outline-none focus:ring-2 focus:ring-orange-500 ${errors.workEmail ? 'border-red-500' : 'border-gray-200 focus:border-orange-500'
+                    className={`w-full px-4 py-3 rounded-lg border-2 transition-colors focus:outline-none focus:ring-2 focus:ring-teal-500 ${errors.workEmail ? 'border-red-500' : 'border-gray-200 focus:border-teal-500'
                                         }`}
                                 />
                                 {errors.workEmail && <p className="text-red-500 text-sm mt-1">{errors.workEmail}</p>}
@@ -267,7 +267,7 @@ function Form() {
                                     placeholder="Phone*"
                                     value={formData.phone}
                                     onChange={handleInputChange}
-                                    className={`w-full px-4 py-3 rounded-lg border-2 transition-colors focus:outline-none focus:ring-2 focus:ring-orange-500 ${errors.phone ? 'border-red-500' : 'border-gray-200 focus:border-orange-500'
+                    className={`w-full px-4 py-3 rounded-lg border-2 transition-colors focus:outline-none focus:ring-2 focus:ring-teal-500 ${errors.phone ? 'border-red-500' : 'border-gray-200 focus:border-teal-500'
                                         }`}
                                 />
                                 {errors.phone && <p className="text-red-500 text-sm mt-1">{errors.phone}</p>}
@@ -281,7 +281,7 @@ function Form() {
                                     placeholder="Company Website"
                                     value={formData.companyWebsite}
                                     onChange={handleInputChange}
-                                    className="w-full px-4 py-3 rounded-lg border-2 border-gray-200 focus:border-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 transition-colors"
+                    className="w-full px-4 py-3 rounded-lg border-2 border-gray-200 focus:border-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-500 transition-colors"
                                 />
                             </div>
 
@@ -291,7 +291,7 @@ function Form() {
                                     name="helpNeeded"
                                     value={formData.helpNeeded}
                                     onChange={handleInputChange}
-                                    className={`w-full px-4 py-3 rounded-lg border-2 transition-colors focus:outline-none focus:ring-2 focus:ring-orange-500 ${errors.helpNeeded ? 'border-red-500' : 'border-gray-200 focus:border-orange-500'
+                    className={`w-full px-4 py-3 rounded-lg border-2 transition-colors focus:outline-none focus:ring-2 focus:ring-teal-500 ${errors.helpNeeded ? 'border-red-500' : 'border-gray-200 focus:border-teal-500'
                                         }`}
                                 >
                                     <option value="">What do you need help with?*</option>
@@ -308,7 +308,7 @@ function Form() {
                                     name="projectStart"
                                     value={formData.projectStart}
                                     onChange={handleInputChange}
-                                    className={`w-full px-4 py-3 rounded-lg border-2 transition-colors focus:outline-none focus:ring-2 focus:ring-orange-500 ${errors.projectStart ? 'border-red-500' : 'border-gray-200 focus:border-orange-500'
+                    className={`w-full px-4 py-3 rounded-lg border-2 transition-colors focus:outline-none focus:ring-2 focus:ring-teal-500 ${errors.projectStart ? 'border-red-500' : 'border-gray-200 focus:border-teal-500'
                                         }`}
                                 >
                                     <option value="">How soon you want to Start Project</option>
@@ -325,7 +325,7 @@ function Form() {
                                     name="budget"
                                     value={formData.budget}
                                     onChange={handleInputChange}
-                                    className={`w-full px-4 py-3 rounded-lg border-2 transition-colors focus:outline-none focus:ring-2 focus:ring-orange-500 ${errors.budget ? 'border-red-500' : 'border-gray-200 focus:border-orange-500'
+                    className={`w-full px-4 py-3 rounded-lg border-2 transition-colors focus:outline-none focus:ring-2 focus:ring-teal-500 ${errors.budget ? 'border-red-500' : 'border-gray-200 focus:border-teal-500'
                                         }`}
                                 >
                                     <option value="">What is your estimated budget for this project?</option>
@@ -343,11 +343,11 @@ function Form() {
                                     name="agreeToTerms"
                                     checked={formData.agreeToTerms}
                                     onChange={handleInputChange}
-                                    className="mt-1 h-4 w-4 text-orange-600 focus:ring-orange-500 border-gray-300 rounded"
+                    className="mt-1 h-4 w-4 text-teal-600 focus:ring-teal-500 border-gray-300 rounded"
                                 />
                                 <div className="text-sm">
                                     <label className="text-gray-700">
-                                        I agree to <span className="text-orange-600 underline cursor-pointer">terms & conditions</span> provided by the company. By providing my phone number, I agree to receive text messages from the business.
+                      I agree to <span className="text-teal-600 underline cursor-pointer">terms & conditions</span> provided by the company. By providing my phone number, I agree to receive text messages from the business.
                                     </label>
                                     {errors.agreeToTerms && <p className="text-red-500 text-sm mt-1">{errors.agreeToTerms}</p>}
                                 </div>
@@ -358,7 +358,7 @@ function Form() {
                                 type="button"
                                 onClick={handleSubmit}
                                 disabled={isSubmitting}
-                                className="w-full bg-gradient-to-r from-orange-500 to-red-500 text-white font-semibold py-4 px-6 rounded-full hover:from-orange-600 hover:to-red-600 transition-all duration-200 transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-orange-300 disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="w-full bg-gradient-to-r from-teal-500 to-red-500 text-white font-semibold py-4 px-6 rounded-full hover:from-teal-600 hover:to-red-600 transition-all duration-200 transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-teal-300 disabled:opacity-50 disabled:cursor-not-allowed"
                             >
                                 {isSubmitting ? 'Booking...' : 'Book a Call'}
                             </button>
@@ -368,10 +368,10 @@ function Form() {
                     {/* Services Section */}
                     <div className="bg-white rounded-2xl shadow-xl p-8">
                         <div className="mb-8">
-                            <p className="text-orange-500 font-semibold mb-2">CONTACT US</p>
+                <p className="text-teal-500 font-semibold mb-2">CONTACT US</p>
                             <h2 className="text-3xl font-bold text-gray-900 mb-4">
                                 Transform Your Vision into Reality with{' '}
-                                <span className="text-orange-500">Our Expertise</span>
+                  <span className="text-teal-500">Our Expertise</span>
                             </h2>
                         </div>
 
@@ -390,7 +390,7 @@ function Form() {
                         {/* Service Details */}
                         <div className="space-y-6">
                             <div className="flex items-start space-x-3">
-                                <div className="w-2 h-2 bg-orange-500 rounded-full mt-2"></div>
+                  <div className="w-2 h-2 bg-teal-500 rounded-full mt-2"></div>
                                 <div>
                                     <p className="font-semibold text-gray-900">UX Audits –</p>
                                     <p className="text-gray-600">Identify usability challenges and enhance user experience with our comprehensive UX audits.</p>
@@ -398,7 +398,7 @@ function Form() {
                             </div>
 
                             <div className="flex items-start space-x-3">
-                                <div className="w-2 h-2 bg-orange-500 rounded-full mt-2"></div>
+                  <div className="w-2 h-2 bg-teal-500 rounded-full mt-2"></div>
                                 <div>
                                     <p className="font-semibold text-gray-900">UI/UX Design –</p>
                                     <p className="text-gray-600">Create intuitive and visually compelling interfaces that engage users and drive results.</p>
@@ -406,7 +406,7 @@ function Form() {
                             </div>
 
                             <div className="flex items-start space-x-3">
-                                <div className="w-2 h-2 bg-orange-500 rounded-full mt-2"></div>
+                  <div className="w-2 h-2 bg-teal-500 rounded-full mt-2"></div>
                                 <div>
                                     <p className="font-semibold text-gray-900">Branding –</p>
                                     <p className="text-gray-600">Build a memorable brand identity that resonates with your audience and leaves a lasting impression.</p>
@@ -414,7 +414,7 @@ function Form() {
                             </div>
 
                             <div className="flex items-start space-x-3">
-                                <div className="w-2 h-2 bg-orange-500 rounded-full mt-2"></div>
+                  <div className="w-2 h-2 bg-teal-500 rounded-full mt-2"></div>
                                 <div>
                                     <p className="font-semibold text-gray-900">E-commerce Solutions –</p>
                                     <p className="text-gray-600">Boost Sales with Seamless E-commerce Experiences</p>
@@ -422,7 +422,7 @@ function Form() {
                             </div>
 
                             <div className="flex items-start space-x-3">
-                                <div className="w-2 h-2 bg-orange-500 rounded-full mt-2"></div>
+                  <div className="w-2 h-2 bg-teal-500 rounded-full mt-2"></div>
                                 <div>
                                     <p className="font-semibold text-gray-900">Shopify Development –</p>
                                     <p className="text-gray-600">Launch, scale, and optimize your Shopify store with custom solutions designed for success.</p>
@@ -430,7 +430,7 @@ function Form() {
                             </div>
 
                             <div className="flex items-start space-x-3">
-                                <div className="w-2 h-2 bg-orange-500 rounded-full mt-2"></div>
+                  <div className="w-2 h-2 bg-teal-500 rounded-full mt-2"></div>
                                 <div>
                                     <p className="font-semibold text-gray-900">WordPress Development –</p>
                                     <p className="text-gray-600">Develop a robust, secure, and scalable WordPress site tailored to your specific needs.</p>
@@ -446,7 +446,7 @@ function Form() {
             <div className="bg-white rounded-2xl shadow-xl p-8 mb-8 mt-8">
                 <div className="text-center">
                     <h2 className="text-3xl font-bold text-gray-900 mb-2">
-                        Join <span className="text-orange-500">Over 5,000 Companies</span> from Small Business to Enterprise
+              Join <span className="text-teal-500">Over 5,000 Companies</span> from Small Business to Enterprise
                     </h2>
                     <div className="flex flex-wrap justify-center items-center gap-8 mt-8">
                         {/* Instacart */}
@@ -469,7 +469,7 @@ function Form() {
 
                         {/* Barbecue */}
                         <div className="flex items-center space-x-2">
-                            <div className="w-6 h-6 bg-orange-500 rounded"></div>
+                <div className="w-6 h-6 bg-teal-500 rounded"></div>
                             <span className="text-lg font-semibold text-gray-800">BARBECUE</span>
                         </div>
 
@@ -506,7 +506,7 @@ function Form() {
                                     </div>
                                     <div className="absolute -top-2 -right-2 w-16 h-12 bg-blue-500 rounded-lg transform rotate-12"></div>
                                     <div className="absolute -bottom-2 -left-2 w-16 h-12 bg-green-400 rounded-lg transform -rotate-12"></div>
-                                    <div className="absolute top-4 right-8 w-12 h-8 bg-orange-400 rounded-lg transform rotate-45"></div>
+                    <div className="absolute top-4 right-8 w-12 h-8 bg-teal-400 rounded-lg transform rotate-45"></div>
                                 </div>
                             </div>
                             <h4 className="text-xl font-semibold text-gray-900 mb-4 text-center">
@@ -521,14 +521,14 @@ function Form() {
                         <div className="bg-white rounded-2xl p-8 shadow-lg">
                             <div className="flex justify-center mb-6">
                                 <div className="relative">
-                                    <div className="w-20 h-20 bg-orange-500 rounded-full flex items-center justify-center">
+                    <div className="w-20 h-20 bg-teal-500 rounded-full flex items-center justify-center">
                                         <div className="w-8 h-8 bg-white rounded-full"></div>
                                     </div>
-                                    <div className="absolute inset-0 border-4 border-orange-500 rounded-full"></div>
-                                    <div className="absolute top-1 left-1 w-4 h-4 bg-orange-600 rounded-full"></div>
-                                    <div className="absolute bottom-1 right-1 w-4 h-4 bg-orange-600 rounded-full"></div>
-                                    <div className="absolute top-1 right-1 w-4 h-4 bg-orange-600 rounded-full"></div>
-                                    <div className="absolute bottom-1 left-1 w-4 h-4 bg-orange-600 rounded-full"></div>
+                    <div className="absolute inset-0 border-4 border-teal-500 rounded-full"></div>
+                    <div className="absolute top-1 left-1 w-4 h-4 bg-teal-600 rounded-full"></div>
+                    <div className="absolute bottom-1 right-1 w-4 h-4 bg-teal-600 rounded-full"></div>
+                    <div className="absolute top-1 right-1 w-4 h-4 bg-teal-600 rounded-full"></div>
+                    <div className="absolute bottom-1 left-1 w-4 h-4 bg-teal-600 rounded-full"></div>
                                     <div className="absolute -top-3 -right-3 w-12 h-8 bg-gray-800 rounded-lg flex items-center justify-center">
                                         <div className="w-6 h-4 bg-yellow-400 rounded-sm"></div>
                                     </div>
@@ -568,7 +568,7 @@ function Form() {
 
                     {/* CTA Button */}
                     <div className="text-center">
-                        <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-full inline-flex items-center space-x-2 transition-colors">
+              <button className="bg-teal-500 hover:bg-teal-600 text-white font-semibold px-8 py-4 rounded-full inline-flex items-center space-x-2 transition-colors">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
                                 <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z" />
                                 <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0" />
@@ -583,7 +583,7 @@ function Form() {
             <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-6">
       {/* Header */}
       <div className="flex justify-center mb-6">
-        <div className="w-12 h-12 bg-orange-500 rounded-lg flex items-center justify-center">
+            <div className="w-12 h-12 bg-teal-500 rounded-lg flex items-center justify-center">
           {/* <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
             <path d="M12 2L2 7v10c0 5.55 3.84 10 9 11 1.09-.21 2.16-.58 3.16-1.1-1.18-1.46-1.91-3.32-1.91-5.4 0-4.42 3.58-8 8-8 .34 0 .67.03 1 .07V7L12 2z"/>
           </svg> */}

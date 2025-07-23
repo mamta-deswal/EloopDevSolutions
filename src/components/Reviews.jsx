@@ -28,10 +28,10 @@ const Reviews = () => {
   ];
 
   const platforms = [
-    { name: "Upwork", rating: 5.0, color: "bg-green-500", textColor: "text-white" },
+    { name: "Upwork", rating: 5.0, color: "bg-teal-500", textColor: "text-white" },
     { name: "Clutch", rating: 5.0, color: "bg-white", textColor: "text-black", border: "border border-gray-200" },
-    { name: "Trustpilot", rating: 5.0, color: "bg-green-500", textColor: "text-white" },
-    { name: "GoodFirms", rating: 5.0, color: "bg-blue-500", textColor: "text-white" },
+    { name: "Trustpilot", rating: 5.0, color: "bg-teal-500", textColor: "text-white" },
+    { name: "GoodFirms", rating: 5.0, color: "bg-teal-500", textColor: "text-white" },
     { name: "Google", rating: 5.0, color: "bg-white", textColor: "text-black", border: "border border-gray-200" }
   ];
 
@@ -48,7 +48,7 @@ const Reviews = () => {
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="mb-12">
-          <p className="text-orange-500 text-sm font-medium mb-2">Reviews</p>
+          <p className="text-teal-500 text-sm font-medium mb-2">Reviews</p>
           <h1 className="text-4xl font-bold text-gray-900 mb-6">
             Client Reviews of Marketplaces
           </h1>

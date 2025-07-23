@@ -18,7 +18,7 @@ const Portfolio = () => {
                 title: 'Auraluxe Fragrances',
                 description: 'Indulge in the finest BBQ experiences. Discover flavors, find recipes, and connect with BBQ enthusiasts effortlessly.',
                 image: '/api/placeholder/300/400',
-                gradient: 'from-yellow-100 to-orange-100'
+                gradient: 'from-yellow-100 to-teal-100'
             },
             {
                 id: 2,
@@ -55,7 +55,7 @@ const Portfolio = () => {
                 title: 'Portfolio Site',
                 description: 'Creative portfolio showcase with stunning visuals and smooth animations.',
                 image: '/api/placeholder/300/400',
-                gradient: 'from-orange-100 to-red-100'
+                gradient: 'from-teal-100 to-red-100'
             }
         ],
         'WordPress': [
@@ -117,7 +117,7 @@ const Portfolio = () => {
                 title: 'Mobile Backend',
                 description: 'Scalable backend infrastructure for mobile applications with cloud deployment.',
                 image: '/api/placeholder/300/400',
-                gradient: 'from-amber-100 to-orange-100'
+                gradient: 'from-amber-100 to-teal-100'
             },
             {
                 id: 15,
@@ -148,8 +148,8 @@ const Portfolio = () => {
                                 key={category}
                                 onClick={() => setActiveCategory(category)}
                                 className={`text-lg font-medium transition-all duration-300 ${activeCategory === category
-                                        ? 'text-orange-500 border-b-2 border-orange-500 pb-2'
-                                        : 'text-gray-600 hover:text-orange-500'
+                                    ? 'text-teal-500 border-b-2 border-teal-500 pb-2'
+                                    : 'text-gray-600 hover:text-teal-500'
                                     }`}
                             >
                                 {category}
@@ -208,7 +208,7 @@ const Portfolio = () => {
 
                 {/* View Portfolio Button */}
                 <div className="text-center">
-                    <button onClick={() => navigate('/Blog')} className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+                    <button onClick={() => navigate('/Blog')} className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
                         <span className="flex items-center gap-2">
                             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />

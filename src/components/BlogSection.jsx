@@ -15,8 +15,8 @@ const BlogSection = () => {
             date: new Date().toLocaleDateString('en-US'),
             title: 'Top 10 UI UX Design Services to Skyrocket Your User Engagement in 2025',
             image: '/api/placeholder/400/250',
-            bgColor: 'bg-gradient-to-br from-yellow-100 to-orange-100',
-            iconColor: 'text-orange-500',
+            bgColor: 'bg-gradient-to-br from-yellow-100 to-teal-100',
+            iconColor: 'text-teal-500',
             slug: 'ui-ux-design-services-2025'
         },
         {
@@ -46,7 +46,7 @@ const BlogSection = () => {
     };
 
     const RocketIcon = () => (
-        <svg className="w-16 h-16 text-orange-500" fill="currentColor" viewBox="0 0 24 24">
+        <svg className="w-16 h-16 text-teal-500" fill="currentColor" viewBox="0 0 24 24">
             <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
         </svg>
     );
@@ -80,7 +80,7 @@ const BlogSection = () => {
         <div className="max-w-7xl mx-auto px-4 py-16">
             {/* Header */}
             <div className="text-center mb-12">
-                <p className="text-orange-500 text-sm font-medium mb-2">Blog Posts</p>
+                <p className="text-teal-500 text-sm font-medium mb-2">Blog Posts</p>
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                     From Trending Topics To Fundamentals: Blogs
                 </h2>
@@ -127,7 +127,7 @@ const BlogSection = () => {
                             {/* Read More Button */}
                             <button
                                 onClick={() => navigate('/Blog')}
-                                className="text-orange-500 text-sm font-medium border border-orange-500 px-4 py-2 rounded-full hover:bg-orange-500 hover:text-white transition-colors duration-200"
+                                className="text-teal-500 text-sm font-medium border border-teal-500 px-4 py-2 rounded-full hover:bg-teal-500 hover:text-white transition-colors duration-200"
                             >
                                 Read Full Article
                             </button>
@@ -141,7 +141,7 @@ const BlogSection = () => {
                 <button
                     //   onClick={handleViewAllBlogs}
                     onClick={() => navigate('/Blog')}
-                    className="bg-orange-500 text-white px-8 py-3 rounded-full font-medium hover:bg-orange-600 transition-colors duration-200 inline-flex items-center gap-2"
+                    className="bg-teal-500 text-white px-8 py-3 rounded-full font-medium hover:bg-teal-600 transition-colors duration-200 inline-flex items-center gap-2"
                 >
                     <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z" clipRule="evenodd" />
