@@ -123,7 +123,7 @@ const WhatWe = () => {
                   onClick={() => handleTabChange('webdev')}
                   className={`px-6 py-2 rounded-full font-medium transition-colors ${
                     activeTab === 'webdev' 
-                      ? 'bg-red-500 text-white hover:bg-red-600' 
+                    ? 'bg-teal-500 text-white hover:bg-teal-600' 
                       : 'text-gray-600 hover:text-gray-800 hover:bg-gray-100'
                   }`}
                 >
@@ -133,7 +133,7 @@ const WhatWe = () => {
                   onClick={() => handleTabChange('webdesign')}
                   className={`px-6 py-2 rounded-full font-medium transition-colors ${
                     activeTab === 'webdesign' 
-                      ? 'bg-red-500 text-white hover:bg-red-600' 
+                    ? 'bg-teal-500 text-white hover:bg-teal-600' 
                       : 'text-gray-600 hover:text-gray-800 hover:bg-gray-100'
                   }`}
                 >

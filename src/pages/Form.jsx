@@ -242,7 +242,7 @@ function Form() {
                     className={`w-full px-4 py-3 rounded-lg border-2 transition-colors focus:outline-none focus:ring-2 focus:ring-teal-500 ${errors.fullName ? 'border-red-500' : 'border-gray-200 focus:border-teal-500'
                                         }`}
                                 />
-                                {errors.fullName && <p className="text-red-500 text-sm mt-1">{errors.fullName}</p>}
+                  {errors.fullName && <p className="text-teal-500 text-sm mt-1">{errors.fullName}</p>}
                             </div>
 
                             {/* Work Email */}
@@ -256,7 +256,7 @@ function Form() {
                     className={`w-full px-4 py-3 rounded-lg border-2 transition-colors focus:outline-none focus:ring-2 focus:ring-teal-500 ${errors.workEmail ? 'border-red-500' : 'border-gray-200 focus:border-teal-500'
                                         }`}
                                 />
-                                {errors.workEmail && <p className="text-red-500 text-sm mt-1">{errors.workEmail}</p>}
+                  {errors.workEmail && <p className="text-teal-500 text-sm mt-1">{errors.workEmail}</p>}
                             </div>
 
                             {/* Phone */}
@@ -270,7 +270,7 @@ function Form() {
                     className={`w-full px-4 py-3 rounded-lg border-2 transition-colors focus:outline-none focus:ring-2 focus:ring-teal-500 ${errors.phone ? 'border-red-500' : 'border-gray-200 focus:border-teal-500'
                                         }`}
                                 />
-                                {errors.phone && <p className="text-red-500 text-sm mt-1">{errors.phone}</p>}
+                  {errors.phone && <p className="text-teal-500 text-sm mt-1">{errors.phone}</p>}
                             </div>
 
                             {/* Company Website */}
@@ -299,7 +299,7 @@ function Form() {
                                         <option key={option} value={option}>{option}</option>
                                     ))}
                                 </select>
-                                {errors.helpNeeded && <p className="text-red-500 text-sm mt-1">{errors.helpNeeded}</p>}
+                  {errors.helpNeeded && <p className="text-teal-500 text-sm mt-1">{errors.helpNeeded}</p>}
                             </div>
 
                             {/* Project Timeline */}
@@ -316,7 +316,7 @@ function Form() {
                                         <option key={option} value={option}>{option}</option>
                                     ))}
                                 </select>
-                                {errors.projectStart && <p className="text-red-500 text-sm mt-1">{errors.projectStart}</p>}
+                  {errors.projectStart && <p className="text-teal-500 text-sm mt-1">{errors.projectStart}</p>}
                             </div>
 
                             {/* Budget */}
@@ -333,7 +333,7 @@ function Form() {
                                         <option key={range} value={range}>{range}</option>
                                     ))}
                                 </select>
-                                {errors.budget && <p className="text-red-500 text-sm mt-1">{errors.budget}</p>}
+                  {errors.budget && <p className="text-teal-500 text-sm mt-1">{errors.budget}</p>}
                             </div>
 
                             {/* Terms and Conditions */}
@@ -349,7 +349,7 @@ function Form() {
                                     <label className="text-gray-700">
                       I agree to <span className="text-teal-600 underline cursor-pointer">terms & conditions</span> provided by the company. By providing my phone number, I agree to receive text messages from the business.
                                     </label>
-                                    {errors.agreeToTerms && <p className="text-red-500 text-sm mt-1">{errors.agreeToTerms}</p>}
+                    {errors.agreeToTerms && <p className="text-teal-500 text-sm mt-1">{errors.agreeToTerms}</p>}
                                 </div>
                             </div>
 
@@ -358,7 +358,7 @@ function Form() {
                                 type="button"
                                 onClick={handleSubmit}
                                 disabled={isSubmitting}
-                  className="w-full bg-gradient-to-r from-teal-500 to-red-500 text-white font-semibold py-4 px-6 rounded-full hover:from-teal-600 hover:to-red-600 transition-all duration-200 transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-teal-300 disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="w-full bg-gradient-to-r from-teal-500 to-teal-500 text-white font-semibold py-4 px-6 rounded-full hover:from-teal-600 hover:to-teal-600 transition-all duration-200 transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-teal-300 disabled:opacity-50 disabled:cursor-not-allowed"
                             >
                                 {isSubmitting ? 'Booking...' : 'Book a Call'}
                             </button>
