@@ -105,7 +105,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="relative min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800 overflow-hidden pt-15">
+    <div className="relative min-h-screen bg-gradient-to-br bg-black overflow-hidden pt-15">
       {/* Animated Background */}
       <div className="absolute inset-0 bg-gradient-to-r from-orange-500/5 via-transparent to-purple-500/5"></div>
       
@@ -118,7 +118,7 @@ const Hero = () => {
         style={{
           left: mousePosition.x - 70,
           top: mousePosition.y - 70,
-          background: 'radial-gradient(circle, rgba(255,146,268,0.4) 0%, transparent 50%)',
+          background: 'radial-gradient(circle, rgba(255,255,255,0.3) 1%, transparent 30%)',
           width: '250px',
           height: '250px',
           borderRadius: '50%',
