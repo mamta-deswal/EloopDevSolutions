@@ -636,7 +636,7 @@ function Form() {
                   h-10 w-10 rounded-full text-sm font-medium transition-colors
                   ${!day ? 'invisible' : ''}
                   ${day && selectedDate && selectedDate.getDate() === day 
-                    ? 'bg-blue-500 text-white' 
+                  ? 'bg-teal-500 text-white' 
                     : 'hover:bg-gray-100 text-gray-700'
                   }
                   ${day === today.getDate() && 
@@ -660,7 +660,7 @@ function Form() {
 
           {/* Selected Date Display */}
           {selectedDate && (
-            <div className="text-sm text-blue-600 mb-4">
+                <div className="text-sm text-teal-600 mb-4">
               Available Starting times for {formatDate(selectedDate)}
             </div>
           )}
@@ -682,7 +682,7 @@ function Form() {
                       className={`
                         p-3 rounded-lg text-sm font-medium transition-colors
                         ${selectedTime === slot.time 
-                          ? 'bg-blue-500 text-white' 
+                        ? 'bg-teal-500 text-white' 
                           : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                         }
                         ${!slot.available ? 'opacity-50 cursor-not-allowed' : ''}
@@ -706,7 +706,7 @@ function Form() {
                       className={`
                         p-3 rounded-lg text-sm font-medium transition-colors
                         ${selectedTime === slot.time 
-                          ? 'bg-blue-500 text-white' 
+                        ? 'bg-teal-500 text-white' 
                           : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                         }
                         ${!slot.available ? 'opacity-50 cursor-not-allowed' : ''}
@@ -719,7 +719,7 @@ function Form() {
               </div>
 
               {/* Load More */}
-              <button className="text-blue-500 text-sm hover:underline">
+                  <button className="text-teal-500 text-sm hover:underline">
                 Load More
               </button>
             </div>
@@ -739,7 +739,7 @@ function Form() {
           className={`
             px-8 py-3 rounded-lg font-medium transition-colors
             ${selectedDate && selectedTime 
-              ? 'bg-blue-500 text-white hover:bg-blue-600' 
+            ? 'bg-teal-500 text-white hover:bg-teal-600' 
               : 'bg-gray-300 text-gray-500 cursor-not-allowed'
             }
           `}
@@ -751,7 +751,7 @@ function Form() {
       {/* Selected Summary */}
       {selectedDate && selectedTime && (
         <div className="mt-4 p-4 bg-blue-50 rounded-lg text-center">
-          <p className="text-sm text-blue-700">
+              <p className="text-sm text-teal-700">
             Selected: {formatDate(selectedDate)} at {selectedTime}
           </p>
         </div>
