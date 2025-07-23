@@ -108,15 +108,15 @@ const Ecommerce = () => {
 
               {/* Main Person Image */}
               <div className="relative pl-70">
-                <div className="w-80 h-96 bg-gradient-to-br from-teal-400 to-pink-400 rounded-3xl flex items-end justify-center overflow-hidden">
+                <div className="w-80 h-96 bg-gradient-to-br from-teal-400 to-teal-400 rounded-3xl flex items-end justify-center overflow-hidden">
                   {/* Person silhouette */}
-                  <div className="w-64 h-80 bg-red-300 rounded-t-full relative">
-                    <div className="absolute top-8 left-1/2 transform -translate-x-1/2 w-16 h-16 bg-red-400 rounded-full"></div>
-                    <div className="absolute top-20 left-1/2 transform -translate-x-1/2 w-40 h-48 bg-red-400 rounded-t-full"></div>
+                  <div className="w-64 h-80 bg-teal-300 rounded-t-full relative">
+                    <div className="absolute top-8 left-1/2 transform -translate-x-1/2 w-16 h-16 bg-teal-400 rounded-full"></div>
+                    <div className="absolute top-20 left-1/2 transform -translate-x-1/2 w-40 h-48 bg-teal-400 rounded-t-full"></div>
                     {/* Glasses */}
-                    <div className="absolute top-12 left-1/2 transform -translate-x-1/2 w-8 h-4 border-2 border-gray-800 rounded-full"></div>
+                    <div className="absolute top-12 left-1/2 transform -translate-x-1/2 w-8 h-4 border-2 border-teal-900 rounded-full"></div>
                     {/* Laptop */}
-                    <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2 w-24 h-16 bg-gray-800 rounded-md"></div>
+                    <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2 w-24 h-16 bg-teal-800 rounded-md"></div>
                   </div>
                 </div>
               </div>
