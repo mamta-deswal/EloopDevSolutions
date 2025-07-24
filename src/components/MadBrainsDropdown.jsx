@@ -81,7 +81,7 @@ const WhatWe = () => {
                 //       : 'text-gray-600 hover:text-gray-800 hover:bg-gray-100'
                 //   }`}
                 >
-                  Why MadBrains
+                Why ELoop.
                 </button>
               </div>
 
