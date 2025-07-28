@@ -8,7 +8,7 @@ const Portfolio = () => {
 
     const navigate = useNavigate();
     const handleButtonClick = () => {
-        navigate('/blogs');
+        navigate('/cv');
     };
 
     const portfolioData = {
@@ -208,7 +208,7 @@ const Portfolio = () => {
 
                 {/* View Portfolio Button */}
                 <div className="text-center">
-                    <button onClick={() => navigate('/Blog')} className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+                    <button onClick={() => navigate('/Cv')} className="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
                         <span className="flex items-center gap-2">
                             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />

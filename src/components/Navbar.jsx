@@ -255,7 +255,7 @@ const Navbar = () => {
                         </li>
 
                         {/* Why ELoop Dropdown */}
-                        <li className="relative"
+                        {/* <li className="relative"
                             onMouseEnter={() => handleMouseEnter('whyMadBrains')}
                             onMouseLeave={handleMouseLeave}
                         >
@@ -273,7 +273,7 @@ const Navbar = () => {
                             {openDropdown === 'whyMadBrains' && (
                                 <MadBrainsDropdown />
                             )}
-                        </li>
+                        </li> */}
 
                         {/* Blog - Direct Link */}
                         <li>

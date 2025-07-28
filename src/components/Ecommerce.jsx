@@ -1,10 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Ecommerce = () => {
   // Navigation function - replace this with actual React Router navigation
-  const handlePortfolioClick = () => {
-
-    window.location.href = '/portfolio';
+  const navigate = useNavigate();
+  const handleButtonClick = () => {
+    navigate('/cv');
   };
 
   const services = [
@@ -73,7 +74,7 @@ const Ecommerce = () => {
             {/* CTA Button */}
             <div className="pt-4">
               <button
-                onClick={handlePortfolioClick}
+                onClick={() => navigate('/Cv')}
                 className="bg-teal-500 hover:bg-teal-600 text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center space-x-3"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">

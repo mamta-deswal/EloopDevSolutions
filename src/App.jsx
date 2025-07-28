@@ -1,21 +1,3 @@
-// import React from 'react'
-// import Navbar from './components/Navbar'
-// import Hero from './components/Hero'
-// // import Blog from './components/Blog'
-
-// const App = () => {
-//   return (
-//     <div>
-//       <Navbar/>
-//       <Hero/>
-//       {/* <Blog /> */}
-//     </div>
-//   )
-// }
-
-// export default App
-
-
 import React from 'react'
 import Navbar from './components/Navbar'
 import { Route, Routes, useLocation } from 'react-router-dom'
@@ -24,6 +6,8 @@ import Blogs from './pages/Blogs';
 import Footer from './components/Footer';
 import Form from './pages/Form';
 import SubscriptionLanding from './pages/SubscriptionLanding';
+import Cv from './components/Cv';
+import FullBlog from './components/FullBlog';
 
 const App = () => {
 
@@ -37,6 +21,8 @@ const App = () => {
           <Route path='/blog' element={<Blogs />} />
           <Route path='/form' element={<Form />} />
           <Route path='/SubscriptionLanding' element={<SubscriptionLanding />} />
+          <Route path='/cv' element={<Cv />} />
+          <Route path='/fullblog' element={<FullBlog />} />
         </Routes>
       </div>
       <Footer />

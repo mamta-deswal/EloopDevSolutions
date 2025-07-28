@@ -30,20 +30,9 @@ const Footer = () => {
     "Contact Us"
   ];
 
-  const otherLinks = [
-    "Privacy Policy",
-    "Refund Policy",
-    "Terms & Conditions"
-  ];
 
   const socialLinks = [
-    { name: "Facebook", url: "#" },
-    { name: "Twitter", url: "#" },
-    { name: "Instagram", url: "#" },
     { name: "LinkedIn", url: "#" },
-    { name: "Behance", url: "#" },
-    { name: "Dribbble", url: "#" },
-    { name: "Design Rush", url: "#" }
   ];
 
   const testimonials = [
@@ -104,14 +93,8 @@ const Footer = () => {
               <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
                 <button className="bg-white bg-opacity-20 hover:bg-opacity-30 transition-all duration-300 px-6 py-3 rounded-full flex items-center gap-2 text-black font-medium">
                   <span className="text-lg">📞</span>
-                  +1 76772059
-                </button>
-                
-                <button className="bg-white hover:bg-gray-100 transition-all duration-300 px-6 py-3 rounded-full flex items-center gap-2 text-gray-900 font-medium">
-                  <span className="text-lg">📅</span>
-                  Schedule a Call
-                </button>
-                
+                  +91 8750648334
+                </button>        
                 <button className="bg-white bg-opacity-20 hover:bg-opacity-30 transition-all duration-300 px-6 py-3 rounded-full flex items-center gap-2 text-black  font-medium">
                   <span className="text-lg">✉️</span>
                   ELoopDevSolutions.com
@@ -131,7 +114,7 @@ const Footer = () => {
           
           {/* Offices */}
           <div className="md:col-span-1">
-            <h3 className="text-lg font-semibold mb-4">Offices</h3>
+              <h3 className="text-lg font-semibold mb-4">Office</h3>
             <div className="space-y-6">
               {offices.map((office, index) => (
                 <div key={index}>
@@ -186,26 +169,6 @@ const Footer = () => {
                     onMouseLeave={handleItemLeave}
                   >
                     {item}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Other Links */}
-          <div className="md:col-span-1">
-            <h3 className="text-lg font-semibold mb-4">Other Link</h3>
-            <ul className="space-y-2">
-              {otherLinks.map((link, index) => (
-                <li key={index}>
-                  <a 
-                    href="#" 
-                    className={`text-sm transition-colors duration-300 hover:text-teal-700 ${hoveredItem === `other-${index}` ? 'text-teal-500' : 'text-gray-300'
-                    }`}
-                    onMouseEnter={() => handleItemHover(`other-${index}`)}
-                    onMouseLeave={handleItemLeave}
-                  >
-                    {link}
                   </a>
                 </li>
               ))}

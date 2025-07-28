@@ -17,6 +17,7 @@ const SubscriptionLanding = () => {
   const [activeTestimonial, setActiveTestimonial] = useState(0);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     setIsVisible(true);
     const interval = setInterval(() => {
       setActiveTestimonial((prev) => (prev + 1) % 3);
